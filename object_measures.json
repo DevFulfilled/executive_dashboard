@@ -1,0 +1,500 @@
+[
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "DBUzjm",
+        "measure_index": 0,
+        "object_id": "137bf5b3-971e-4605-8024-94391f5702a4",
+        "object_title": "Sales vs Margin by Sales Rep",
+        "object_type": "scatterplot"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "NPPsJt",
+        "measure_index": 1,
+        "object_id": "137bf5b3-971e-4605-8024-94391f5702a4",
+        "object_title": "Sales vs Margin by Sales Rep",
+        "object_type": "scatterplot"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "SLJUwQj",
+        "measure_index": 2,
+        "object_id": "137bf5b3-971e-4605-8024-94391f5702a4",
+        "object_title": "Sales vs Margin by Sales Rep",
+        "object_type": "scatterplot"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "YgtM",
+        "measure_index": 0,
+        "object_id": "eb9e6235-bb22-43c3-a430-1a2b24a7fff2",
+        "object_title": "Average Sales Per Day",
+        "object_type": "linechart"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "NPPsJt",
+        "measure_index": 0,
+        "object_id": "7d2b2e66-12f7-484f-b3a0-5f0c1267cd3f",
+        "object_title": {
+            "qStringExpression": {
+                "qExpr": "='Total Revenue Analyzed = ' & num(Sum([Sales Quantity]*[Sales Price]), '$#,##0')"
+            }
+        },
+        "object_type": "barchart"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "napvtJ",
+        "measure_index": 0,
+        "object_id": "ZUprAtL",
+        "object_title": "Expenses vs Budget",
+        "object_type": "sn-pivot-table"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "vhdJ",
+        "measure_index": 1,
+        "object_id": "ZUprAtL",
+        "object_title": "Expenses vs Budget",
+        "object_type": "sn-pivot-table"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "10cbf0f6-50b1-4d00-b63f-52afb439d1b7",
+        "measure_index": 2,
+        "object_id": "ZUprAtL",
+        "object_title": "Expenses vs Budget",
+        "object_type": "sn-pivot-table"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "bUft",
+        "measure_index": 0,
+        "object_id": "35c48abb-b9f9-4e8f-9376-277925ae045f",
+        "object_title": "Expenses as % of Sales",
+        "object_type": "piechart"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "djTj",
+        "measure_index": 0,
+        "object_id": "Xau",
+        "object_title": {
+            "qStringExpression": {
+                "qExpr": "='Expenses vs Budget ' & if(GetSelectedCount([Fiscal Year])<>1, \tmax([Fiscal Year]), \t    '$(vYear)')"
+            }
+        },
+        "object_type": "combochart"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "b551c4b8-9e02-41c3-b1dc-6e9c9683eb46",
+        "measure_index": 1,
+        "object_id": "Xau",
+        "object_title": {
+            "qStringExpression": {
+                "qExpr": "='Expenses vs Budget ' & if(GetSelectedCount([Fiscal Year])<>1, \tmax([Fiscal Year]), \t    '$(vYear)')"
+            }
+        },
+        "object_type": "combochart"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "JgwLP",
+        "measure_index": 2,
+        "object_id": "Xau",
+        "object_title": {
+            "qStringExpression": {
+                "qExpr": "='Expenses vs Budget ' & if(GetSelectedCount([Fiscal Year])<>1, \tmax([Fiscal Year]), \t    '$(vYear)')"
+            }
+        },
+        "object_type": "combochart"
+    },
+    {
+        "expression": "(Sum({<[Fiscal Year]={$(vYTDYear)}>} AROpen)-Sum({<[Fiscal Year]={$(vYTDYear)}>} ARCurrent))/Sum({<[Fiscal Year]={$(vYTDYear)}>} AROpen)",
+        "is_master_item": false,
+        "label": "AR % Overdue",
+        "library_id": null,
+        "measure_index": 0,
+        "object_id": "fbcb9301-06b5-4c71-9faf-d85cf7b836d1",
+        "object_title": {
+            "qStringExpression": {
+                "qExpr": "='Account Receivable Overdue  =  ' & num((Sum({<[Fiscal Year]={$(vYTDYear)}>} AROpen)-Sum({<[Fiscal Year]={$(vYTDYear)}>} ARCurrent))/Sum({<[Fiscal Year]={$(vYTDYear)}>} AROpen), '#,##0%')"
+            }
+        },
+        "object_type": "gauge"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "vLRMZz",
+        "measure_index": 0,
+        "object_id": "026750f8-77ae-4fd4-842d-c04bf6f6851c",
+        "object_title": "Amount Overdue by Segment",
+        "object_type": "piechart"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "pVTm",
+        "measure_index": 0,
+        "object_id": "80d79ac5-f12e-4aa7-aa8e-bd2969c46c91",
+        "object_title": "AR Trend",
+        "object_type": "linechart"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "mwwzJ",
+        "measure_index": 0,
+        "object_id": "5533ab1a-b5cc-4ef1-b80b-34d92f81963e",
+        "object_title": {
+            "qStringExpression": {
+                "qExpr": "='Expenses vs. Target  =  ' & num(sum({<[Fiscal Year]={$(vYTDYear)}, _HistoryFlag={1}>} ExpenseActual)/sum({<[Fiscal Year]={$(vYTDYear)}, _HistoryFlag={1}>} ExpenseBudget), '#,##0%')"
+            }
+        },
+        "object_type": "gauge"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "napvtJ",
+        "measure_index": 0,
+        "object_id": "c897a0e8-6288-463f-bb8e-e0c27abdc002",
+        "object_title": "Expenses by Accounts",
+        "object_type": "piechart"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "napvtJ",
+        "measure_index": 0,
+        "object_id": "756782b3-8c84-4792-ae42-902deccd5e28",
+        "object_title": "Expense Trend",
+        "object_type": "linechart"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "STSDYR",
+        "measure_index": 0,
+        "object_id": "e7f72415-f991-42b5-a92d-92d4c14eb752",
+        "object_title": {
+            "qStringExpression": {
+                "qExpr": "='Revenue vs Last Year Revenue = '& num(Sum({<[Fiscal Year]={$(=vYTDYear)}, FiscalMonthNum={\"<=$(vCurrentMonthNum)\"}>}[Sales Price]*[Sales Quantity])/Sum({<[Fiscal Year]={$(=(vYTDYear)-1)}, FiscalMonthNum={\"<=$(vCurrentMonthNum)\"}>}[Sales Price]*[Sales Quantity]), '#,##0%')\r\n\n//='Revenue vs Last Year Revenue = '& num(Sum({<[Fiscal Year]={$(=vYTDYear)}, FiscalMonthNum={\"<=$(vCurrentMonthNum)\"}>}[Sales Price]*[Sales Quantity])/Sum({<[Fiscal Year]={$((=vYTDYear)-1)}, FiscalMonthNum={\"<=$(vCurrentMonthNum)\"}>}[Sales Price]*[Sales Quantity]), '#,##0%')"
+            }
+        },
+        "object_type": "gauge"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "NPPsJt",
+        "measure_index": 0,
+        "object_id": "b7b97a00-665b-41dc-a88b-9a492c13f51b",
+        "object_title": "Revenue by Products",
+        "object_type": "piechart"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "NPPsJt",
+        "measure_index": 0,
+        "object_id": "ebcd6140-811a-4a08-9af2-2af88a2f55ad",
+        "object_title": "Revenue Trend",
+        "object_type": "linechart"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "vLRMZz",
+        "measure_index": 0,
+        "object_id": "9e3fc14b-0722-4365-8d8b-01b7a8757b72",
+        "object_title": "Amount Overdue by Sales Rep",
+        "object_type": "treemap"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "VSufGd",
+        "measure_index": 0,
+        "object_id": "9d5def45-aca3-49a0-ba74-625966aa0c44",
+        "object_title": "Amount Overdue vs DSO",
+        "object_type": "scatterplot"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "vLRMZz",
+        "measure_index": 1,
+        "object_id": "9d5def45-aca3-49a0-ba74-625966aa0c44",
+        "object_title": "Amount Overdue vs DSO",
+        "object_type": "scatterplot"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "VSufGd",
+        "measure_index": 0,
+        "object_id": "cba42d5d-a6d9-451c-a53c-e5c700c16790",
+        "object_title": "",
+        "object_type": "gauge"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "FDPQYx",
+        "measure_index": 0,
+        "object_id": "d43e8b03-db70-48b5-9afb-6730fef33f7d",
+        "object_title": "",
+        "object_type": "gauge"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "vLRMZz",
+        "measure_index": 0,
+        "object_id": "6b056ca8-0979-4b1e-983c-8d5542673197",
+        "object_title": "AR Measures vs Sales",
+        "object_type": "table"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "VSufGd",
+        "measure_index": 1,
+        "object_id": "6b056ca8-0979-4b1e-983c-8d5542673197",
+        "object_title": "AR Measures vs Sales",
+        "object_type": "table"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "TGwPSs",
+        "measure_index": 2,
+        "object_id": "6b056ca8-0979-4b1e-983c-8d5542673197",
+        "object_title": "AR Measures vs Sales",
+        "object_type": "table"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "pWej",
+        "measure_index": 3,
+        "object_id": "6b056ca8-0979-4b1e-983c-8d5542673197",
+        "object_title": "AR Measures vs Sales",
+        "object_type": "table"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "vLRMZz",
+        "measure_index": 0,
+        "object_id": "3ee2a8ae-fb6c-4833-8ec5-c68c86e91923",
+        "object_title": "",
+        "object_type": "kpi"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "DBUzjm",
+        "measure_index": 0,
+        "object_id": "7bc690d0-0c23-4d9a-a46d-0f02192324d0",
+        "object_title": "Sales vs Margin by Sales Rep",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "NPPsJt",
+        "measure_index": 1,
+        "object_id": "7bc690d0-0c23-4d9a-a46d-0f02192324d0",
+        "object_title": "Sales vs Margin by Sales Rep",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "SLJUwQj",
+        "measure_index": 2,
+        "object_id": "7bc690d0-0c23-4d9a-a46d-0f02192324d0",
+        "object_title": "Sales vs Margin by Sales Rep",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": " (\u3000sum(ExpenseActual)\u3000) / Sum( Total Aggr(  (\u3000sum(ExpenseActual)\u3000) , [$(=Replace(GetObjectField(0),']',']]'))]))",
+        "is_master_item": false,
+        "label": "Expense Amount",
+        "library_id": null,
+        "measure_index": 0,
+        "object_id": "7ed6fd8b-1cec-4fd5-83d4-2125564ec48d",
+        "object_title": "Expenses by Accounts",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "gPDABt",
+        "measure_index": 0,
+        "object_id": "BHTXyNM",
+        "object_title": "Expenses as % Sales",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "KKnaBV",
+        "measure_index": 0,
+        "object_id": "FDJPm",
+        "object_title": "Cost Center Report (000s)",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "VjxMHP",
+        "measure_index": 1,
+        "object_id": "FDJPm",
+        "object_title": "Cost Center Report (000s)",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "djTj",
+        "measure_index": 2,
+        "object_id": "FDJPm",
+        "object_title": "Cost Center Report (000s)",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "w",
+        "measure_index": 0,
+        "object_id": "JZMrdb",
+        "object_title": " Product Inventory Turns, Amount and Margin%",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "DBUzjm",
+        "measure_index": 1,
+        "object_id": "JZMrdb",
+        "object_title": " Product Inventory Turns, Amount and Margin%",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": " (\u3000Sum([Sales Quantity]*[Sales Price])\u3000) / Sum( Total Aggr(  (\u3000Sum([Sales Quantity]*[Sales Price])\u3000) , [$(=Replace(GetObjectField(0),']',']]'))]))",
+        "is_master_item": false,
+        "label": "Revenue",
+        "library_id": null,
+        "measure_index": 0,
+        "object_id": "c84a7c6a-e46e-4fe7-b64c-9267f672736f",
+        "object_title": "Revenue by Products",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "vLRMZz",
+        "measure_index": 0,
+        "object_id": "eff0d3b1-6415-4975-8cd4-da7c4969a334",
+        "object_title": "Amount Overdue by Customers",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "w",
+        "measure_index": 0,
+        "object_id": "nRxXG",
+        "object_title": "Onhand Inventory $ (sorted by Sales Qty)",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "napvtJ",
+        "measure_index": 0,
+        "object_id": "pDKRhr",
+        "object_title": "Customer Revenue vs. Expense",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "NPPsJt",
+        "measure_index": 1,
+        "object_id": "pDKRhr",
+        "object_title": "Customer Revenue vs. Expense",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "NPPsJt",
+        "measure_index": 0,
+        "object_id": "tmaqpf",
+        "object_title": "Revenue by Product",
+        "object_type": "masterobject"
+    }
+]
