@@ -1,0 +1,210 @@
+MASTER DIMENSIONS
+=================
+
+Title: Product Type
+ID: ANYTpUm
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Year
+ID: AswNnUE
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Product Sub Group
+ID: DcuPcq
+Grouping: N
+Fields: 
+Labels: 
+Description: Product sub group description
+
+--------------------------------------------------------------------------------
+
+Title: Fiscal Time Drill
+ID: E1781VDT
+Grouping: H
+Fields: 
+Labels: 
+Description: a grouping of dimensions
+
+--------------------------------------------------------------------------------
+
+Title: Customer Number
+ID: EzubBQ
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Customer Type
+ID: FYkzzR
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Customer to Product
+ID: GPAPHZU
+Grouping: H
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Year Month
+ID: HnEfUp
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Order Number
+ID: PjEUh
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Account Drill
+ID: QuWSp
+Grouping: H
+Fields: 
+Labels: 
+Description: Drill down from the account description to the account group description.
+
+--------------------------------------------------------------------------------
+
+Title: ARAge
+ID: RJRD
+Grouping: N
+Fields: 
+Labels: 
+Description: Age of account receivable.
+
+--------------------------------------------------------------------------------
+
+Title: Sales Rep Name
+ID: XFhtUb
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Account
+ID: aLVsP
+Grouping: N
+Fields: 
+Labels: 
+Description: Account description.
+
+--------------------------------------------------------------------------------
+
+Title: Month
+ID: dyCEjG
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Quarter
+ID: eMukN
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Order Status
+ID: jcDdm
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Region
+ID: jgxpDbw
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Inventory Turns
+ID: jxuDwx
+Grouping: N
+Fields: 
+Labels: 
+Description: The number of times inventory is sold or used in a year.
+
+--------------------------------------------------------------------------------
+
+Title: Account Group
+ID: nrxFRV
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Customer
+ID: pcZcGjn
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Product
+ID: pmresb
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Product Group
+ID: rAWLLGj
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Segment
+ID: wLJmmJn
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
