@@ -1,0 +1,352 @@
+MASTER MEASURES
+===============
+
+Title: Expense Variance
+Label: Expense Variance
+ID: 10cbf0f6-50b1-4d00-b63f-52afb439d1b7
+Tags: expenses
+
+Expression:
+Sum(ExpenseBudget)-sum(ExpenseActual)
+
+--------------------------------------------------------------------------------
+
+Title: Margin %
+Label: Margin %
+ID: DBUzjm
+Tags: margin
+
+Expression:
+((Sum([Sales Quantity]*[Sales Price]))-(Sum([Sales Cost Amount])))/(Sum([Sales Price]* [Sales Quantity]))
+
+--------------------------------------------------------------------------------
+
+Title: # of Customers
+Label: # of Customers
+ID: DSrjAGm
+Tags: customer
+
+Expression:
+count(distinct [Customer Number])
+
+--------------------------------------------------------------------------------
+
+Title: Revenue vs. LY Revenue
+Label: Revenue vs. LY Revenue
+ID: EM5OOT8U5NMCBJJT
+Tags: MasterItem, Revenue, YoY, Sales
+
+Expression:
+Sum({<[Fiscal Year]={$(=vYTDYear)}, FiscalMonthNum={"<=$(vCurrentMonthNum)"}>}[Sales Price]*[Sales Quantity])/Sum({<[Fiscal Year]={$(=(vYTDYear)-1)}, FiscalMonthNum={"<=$(vCurrentMonthNum)"}>}[Sales Price]*[Sales Quantity])
+
+--------------------------------------------------------------------------------
+
+Title: AR % Overdue
+Label: AR % Overdue
+ID: FDPQYx
+Tags: ar
+
+Expression:
+(Sum({<[Fiscal Year]={$(vYTDYear)}>} AROpen)-Sum({<[Fiscal Year]={$(vYTDYear)}>} ARCurrent))/Sum({<[Fiscal Year]={$(vYTDYear)}>} AROpen)
+
+--------------------------------------------------------------------------------
+
+Title: Expenses Prior Year
+Label: Expenses Prior Year
+ID: JgwLP
+Tags: 
+
+Expression:
+if(GetSelectedCount([Fiscal Year])<>1,  	
+	Sum({<[Fiscal Year]={$(=max([Fiscal Year]-1))} >} ExpenseActual)/1000, 	
+    Sum({<[Fiscal Year]={$(vYear-1)}>} ExpenseActual)/1000
+)
+
+--------------------------------------------------------------------------------
+
+Title: # of Products
+Label: # of Products
+ID: KdPhAt
+Tags: product
+
+Expression:
+count(distinct [Line Desc 1])
+
+--------------------------------------------------------------------------------
+
+Title: % of Items
+Label: % of Items
+ID: LSRByY
+Tags: 
+
+Expression:
+Count(Distinct [Item-Branch Key])
+
+--------------------------------------------------------------------------------
+
+Title: Not Purchased
+Label: Not Purchased
+ID: MspLjZ
+Tags: 
+
+Expression:
+sum( {<[Line Desc 1] = E({$} [Line Desc 1])>} [Sales Amount] )
+
+--------------------------------------------------------------------------------
+
+Title: Revenue vs. Budget
+Label: Revenue vs. Budget
+ID: NJTmn
+Tags: 
+
+Expression:
+Sum({<[Fiscal Year]={$(vYTDYear)}, _HistoryFlag={1}>}[Sales Amount])/(Sum({<[Fiscal Year]={$(vYTDYear)}, _HistoryFlag={1}>}[Budget Amount]))
+
+--------------------------------------------------------------------------------
+
+Title: Revenue
+Label: Revenue
+ID: NPPsJt
+Tags: revenue
+
+Expression:
+Sum([Sales Quantity]*[Sales Price])
+
+--------------------------------------------------------------------------------
+
+Title: # of Cust AR60+
+Label: # of Cust AR60+
+ID: RRcCqu
+Tags: account_receivables, ar
+
+Expression:
+if( Sum ([AR60+])>0, count ( distinct [Customer Number]))
+
+--------------------------------------------------------------------------------
+
+Title: Sales Quantity
+Label: Sales Quantity
+ID: SLJUwQj
+Tags: sales
+
+Expression:
+Sum([Sales Quantity])
+
+--------------------------------------------------------------------------------
+
+Title: Revenue vs. LY Revenue
+Label: Revenue vs. LY Revenue
+ID: STSDYR
+Tags: 
+
+Expression:
+Sum({<[Fiscal Year]={$(=vYTDYear)}, FiscalMonthNum={"<=$(vCurrentMonthNum)"}>}[Sales Price]*[Sales Quantity])/Sum({<[Fiscal Year]={$(=(vYTDYear)-1)}, FiscalMonthNum={"<=$(vCurrentMonthNum)"}>}[Sales Price]*[Sales Quantity])
+
+--------------------------------------------------------------------------------
+
+Title: CY Sales
+Label: CY Sales
+ID: TGwPSs
+Tags: sales
+
+Expression:
+Sum({<[Fiscal Year]={$(=(vCurrentYear)-1)}>}[Sales Amount])
+
+--------------------------------------------------------------------------------
+
+Title: Days Sales Outstanding
+Label: Days Sales Outstanding
+ID: VSufGd
+Tags: 
+
+Expression:
+Sum (ARAvgBal)/Sum (ARSalesPerDay)
+
+--------------------------------------------------------------------------------
+
+Title: Budget
+Label: Budget
+ID: VjxMHP
+Tags: budget
+
+Expression:
+Sum(ExpenseBudget)/1000
+
+--------------------------------------------------------------------------------
+
+Title: Inventory Quantity
+Label: Inventory Quantity
+ID: WFjQfGK
+Tags: inventory
+
+Expression:
+sum(StockOH)
+
+--------------------------------------------------------------------------------
+
+Title: Avg Sales Per Day
+Label: Avg Sales Per Day
+ID: YgtM
+Tags: sales
+
+Expression:
+Sum (ARSalesPerDay)
+
+--------------------------------------------------------------------------------
+
+Title: Sales Variance
+Label: Sales Variance
+ID: aajsC
+Tags: sales
+
+Expression:
+(Sum({<[Fiscal Year]={$(vCurrentYear)}>}[Sales Amount]))/(Sum({<[Fiscal Year]={$(=(vCurrentYear)-1)}>}[Sales Amount]))-1
+
+--------------------------------------------------------------------------------
+
+Title: Expense Budget Curr Yr
+Label: Expense Budget Curr Yr
+ID: b551c4b8-9e02-41c3-b1dc-6e9c9683eb46
+Tags: 
+
+Expression:
+if(GetSelectedCount([Fiscal Year])<>1, 
+	Sum({<[Fiscal Year]={$(=max([Fiscal Year]))} >} ExpenseBudget)/1000, 	
+    Sum({<[Fiscal Year]={$(vYear)}>} ExpenseBudget)/1000
+)
+
+--------------------------------------------------------------------------------
+
+Title: Inventory Turns Per Year
+Label: Inventory Turns Per Year
+ID: bAxxYfh
+Tags: 
+
+Expression:
+(Sum({<[Fiscal Year]={$(vYTDYear)}>} ThroughputQty*CostPrice)/Sum({<[Fiscal Year]={$(vYTDYear)}>} StockOH*CostPrice))
+
+--------------------------------------------------------------------------------
+
+Title: Expense as % of Sale
+Label: Expense as % of Sale
+ID: bUft
+Tags: 
+
+Expression:
+If(Sum(ExpenseActual)>0,Sum(ExpenseActual),0)
+
+--------------------------------------------------------------------------------
+
+Title: Expenses Curr Yr
+Label: Expenses Curr Yr
+ID: djTj
+Tags: 
+
+Expression:
+if(GetSelectedCount([Fiscal Year])<>1,  	
+	Sum({<[Fiscal Year]={$(=max([Fiscal Year]))} >} ExpenseActual)/1000, 	
+    Sum({<[Fiscal Year]={$(vYear)}>} ExpenseActual)/1000
+)
+
+--------------------------------------------------------------------------------
+
+Title: Cost (Total)
+Label: Cost (Total)
+ID: jnjgaPY
+Tags: cost
+
+Expression:
+Sum([Sales Cost Amount])
+
+--------------------------------------------------------------------------------
+
+Title: On Time Delivery
+Label: On Time Delivery
+ID: kFkPpz
+Tags: 
+
+Expression:
+Sum([Late Shipment])/Count([OrderID])
+
+--------------------------------------------------------------------------------
+
+Title: Expenses vs. Target
+Label: Expenses vs. Target
+ID: mwwzJ
+Tags: 
+
+Expression:
+sum({<[Fiscal Year]={$(vYTDYear)}, _HistoryFlag={1}>} ExpenseActual)/sum({<[Fiscal Year]={$(vYTDYear)}, _HistoryFlag={1}>} ExpenseBudget)
+
+--------------------------------------------------------------------------------
+
+Title: Expense Amount
+Label: Expense Amount
+ID: napvtJ
+Tags: expenses
+
+Expression:
+sum(ExpenseActual)
+
+--------------------------------------------------------------------------------
+
+Title: AR Average Balance
+Label: AR Average Balance
+ID: pVTm
+Tags: account_receivables, ar
+
+Expression:
+Sum (ARAvgBal)
+
+--------------------------------------------------------------------------------
+
+Title: LY Sales
+Label: LY Sales
+ID: pWej
+Tags: sales
+
+Expression:
+Sum({<[Fiscal Year]={$(=(vCurrentYear)-2)}>}[Sales Amount])
+
+--------------------------------------------------------------------------------
+
+Title: Margin Amount
+Label: Margin Amount
+ID: sgeyqn
+Tags: margin
+
+Expression:
+(Sum([Sales Quantity]*[Sales Price])) - (Sum([Sales Cost Amount]))
+
+--------------------------------------------------------------------------------
+
+Title: Amount Overdue
+Label: Amount Overdue
+ID: vLRMZz
+Tags: 
+
+Expression:
+Sum (AROpen)-Sum(ARCurrent)
+
+--------------------------------------------------------------------------------
+
+Title: Expense Budget
+Label: Expense Budget
+ID: vhdJ
+Tags: 
+
+Expression:
+Sum(ExpenseBudget)
+
+--------------------------------------------------------------------------------
+
+Title: Inventory Amount
+Label: Inventory Amount
+ID: w
+Tags: inventory
+
+Expression:
+Sum(StockOH*CostPrice)
+
+--------------------------------------------------------------------------------
+
