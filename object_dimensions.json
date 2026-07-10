@@ -1,0 +1,344 @@
+[
+    {
+        "dimension_index": 0,
+        "field_defs": [
+            "Sales Rep Name"
+        ],
+        "field_labels": [
+            "Sales Rep Name"
+        ],
+        "is_master_item": false,
+        "library_id": null,
+        "object_id": "137bf5b3-971e-4605-8024-94391f5702a4",
+        "object_title": "Sales vs Margin by Sales Rep",
+        "object_type": "scatterplot"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "HnEfUp",
+        "object_id": "eb9e6235-bb22-43c3-a430-1a2b24a7fff2",
+        "object_title": "Average Sales Per Day",
+        "object_type": "linechart"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "rAWLLGj",
+        "object_id": "7d2b2e66-12f7-484f-b3a0-5f0c1267cd3f",
+        "object_title": {
+            "qStringExpression": {
+                "qExpr": "='Total Revenue Analyzed = ' & num(Sum([Sales Quantity]*[Sales Price]), '$#,##0')"
+            }
+        },
+        "object_type": "barchart"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "nrxFRV",
+        "object_id": "ZUprAtL",
+        "object_title": "Expenses vs Budget",
+        "object_type": "sn-pivot-table"
+    },
+    {
+        "dimension_index": 1,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "aLVsP",
+        "object_id": "ZUprAtL",
+        "object_title": "Expenses vs Budget",
+        "object_type": "sn-pivot-table"
+    },
+    {
+        "dimension_index": 2,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "dyCEjG",
+        "object_id": "ZUprAtL",
+        "object_title": "Expenses vs Budget",
+        "object_type": "sn-pivot-table"
+    },
+    {
+        "dimension_index": 3,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "AswNnUE",
+        "object_id": "ZUprAtL",
+        "object_title": "Expenses vs Budget",
+        "object_type": "sn-pivot-table"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "QuWSp",
+        "object_id": "35c48abb-b9f9-4e8f-9376-277925ae045f",
+        "object_title": "Expenses as % of Sales",
+        "object_type": "piechart"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "dyCEjG",
+        "object_id": "Xau",
+        "object_title": {
+            "qStringExpression": {
+                "qExpr": "='Expenses vs Budget ' & if(GetSelectedCount([Fiscal Year])<>1, \tmax([Fiscal Year]), \t    '$(vYear)')"
+            }
+        },
+        "object_type": "combochart"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "wLJmmJn",
+        "object_id": "026750f8-77ae-4fd4-842d-c04bf6f6851c",
+        "object_title": "Amount Overdue by Segment",
+        "object_type": "piechart"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "HnEfUp",
+        "object_id": "80d79ac5-f12e-4aa7-aa8e-bd2969c46c91",
+        "object_title": "AR Trend",
+        "object_type": "linechart"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [
+            "AccountGroupDesc"
+        ],
+        "field_labels": [
+            "AccountGroupDesc"
+        ],
+        "is_master_item": false,
+        "library_id": null,
+        "object_id": "c897a0e8-6288-463f-bb8e-e0c27abdc002",
+        "object_title": "Expenses by Accounts",
+        "object_type": "piechart"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [
+            "YYYYMM"
+        ],
+        "field_labels": [
+            "Year Month"
+        ],
+        "is_master_item": false,
+        "library_id": null,
+        "object_id": "756782b3-8c84-4792-ae42-902deccd5e28",
+        "object_title": "Expense Trend",
+        "object_type": "linechart"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [
+            "Product Group Desc"
+        ],
+        "field_labels": [
+            "Product Group Desc"
+        ],
+        "is_master_item": false,
+        "library_id": null,
+        "object_id": "b7b97a00-665b-41dc-a88b-9a492c13f51b",
+        "object_title": "Revenue by Products",
+        "object_type": "piechart"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "HnEfUp",
+        "object_id": "ebcd6140-811a-4a08-9af2-2af88a2f55ad",
+        "object_title": "Revenue Trend",
+        "object_type": "linechart"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "wLJmmJn",
+        "object_id": "9e3fc14b-0722-4365-8d8b-01b7a8757b72",
+        "object_title": "Amount Overdue by Sales Rep",
+        "object_type": "treemap"
+    },
+    {
+        "dimension_index": 1,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "XFhtUb",
+        "object_id": "9e3fc14b-0722-4365-8d8b-01b7a8757b72",
+        "object_title": "Amount Overdue by Sales Rep",
+        "object_type": "treemap"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "pcZcGjn",
+        "object_id": "9d5def45-aca3-49a0-ba74-625966aa0c44",
+        "object_title": "Amount Overdue vs DSO",
+        "object_type": "scatterplot"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "pcZcGjn",
+        "object_id": "6b056ca8-0979-4b1e-983c-8d5542673197",
+        "object_title": "AR Measures vs Sales",
+        "object_type": "table"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [
+            "Product Group Desc"
+        ],
+        "field_labels": [
+            "Product Group Desc"
+        ],
+        "is_master_item": false,
+        "library_id": null,
+        "object_id": "7bc690d0-0c23-4d9a-a46d-0f02192324d0",
+        "object_title": "Sales vs Margin by Sales Rep",
+        "object_type": "masterobject"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [
+            "AccountDesc"
+        ],
+        "field_labels": [
+            "AccountDesc"
+        ],
+        "is_master_item": false,
+        "library_id": null,
+        "object_id": "7ed6fd8b-1cec-4fd5-83d4-2125564ec48d",
+        "object_title": "Expenses by Accounts",
+        "object_type": "masterobject"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "aLVsP",
+        "object_id": "BHTXyNM",
+        "object_title": "Expenses as % Sales",
+        "object_type": "masterobject"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "nrxFRV",
+        "object_id": "FDJPm",
+        "object_title": "Cost Center Report (000s)",
+        "object_type": "masterobject"
+    },
+    {
+        "dimension_index": 1,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "aLVsP",
+        "object_id": "FDJPm",
+        "object_title": "Cost Center Report (000s)",
+        "object_type": "masterobject"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "pmresb",
+        "object_id": "JZMrdb",
+        "object_title": " Product Inventory Turns, Amount and Margin%",
+        "object_type": "masterobject"
+    },
+    {
+        "dimension_index": 1,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "jxuDwx",
+        "object_id": "JZMrdb",
+        "object_title": " Product Inventory Turns, Amount and Margin%",
+        "object_type": "masterobject"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "DcuPcq",
+        "object_id": "c84a7c6a-e46e-4fe7-b64c-9267f672736f",
+        "object_title": "Revenue by Products",
+        "object_type": "masterobject"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "pcZcGjn",
+        "object_id": "eff0d3b1-6415-4975-8cd4-da7c4969a334",
+        "object_title": "Amount Overdue by Customers",
+        "object_type": "masterobject"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "pmresb",
+        "object_id": "nRxXG",
+        "object_title": "Onhand Inventory $ (sorted by Sales Qty)",
+        "object_type": "masterobject"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "pcZcGjn",
+        "object_id": "pDKRhr",
+        "object_title": "Customer Revenue vs. Expense",
+        "object_type": "masterobject"
+    },
+    {
+        "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "pmresb",
+        "object_id": "tmaqpf",
+        "object_title": "Revenue by Product",
+        "object_type": "masterobject"
+    }
+]
