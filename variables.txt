@@ -1,0 +1,179 @@
+VARIABLES
+=========
+
+Name: v12month
+ID: 75859fba-9b1c-4a26-ba00-8e0c3a1ed535
+Script Created: Yes
+Definition:
+44986
+
+--------------------------------------------------------------------------------
+
+Name: vOldDate
+ID: f5a60d3f-8461-4f75-9bee-d7a7f31db4b2
+Script Created: Yes
+Definition:
+45352
+
+--------------------------------------------------------------------------------
+
+Name: vCurrentMonth
+ID: 3a256386-3785-4659-b508-094f81ebcb29
+Script Created: Yes
+Definition:
+Mar
+
+--------------------------------------------------------------------------------
+
+Name: vTodaysDate
+ID: 522bf858-7f55-4295-ab05-e480347a8e47
+Script Created: Yes
+Definition:
+45352
+
+--------------------------------------------------------------------------------
+
+Name: vAdjDays
+ID: 824d269b-b727-4b5f-b84b-bc72b914c564
+Script Created: Yes
+Definition:
+0
+
+--------------------------------------------------------------------------------
+
+Name: vToday
+ID: d943651a-3088-4e6f-aeea-6596f530309f
+Script Created: Yes
+Definition:
+3/1/2024
+
+--------------------------------------------------------------------------------
+
+Name: vCurrentYear
+ID: 002edd87-77e8-4711-bd48-79089c7aade3
+Script Created: Yes
+Definition:
+2024
+
+--------------------------------------------------------------------------------
+
+Name: vRolling12months
+ID: 3b8e210a-0c59-4ba9-8f42-99b374afd9a6
+Script Created: Yes
+Definition:
+44986
+
+--------------------------------------------------------------------------------
+
+Name: vCurrentMonthNum
+ID: a299876c-28a0-4186-85a5-5ca09431d03d
+Script Created: Yes
+Definition:
+3
+
+--------------------------------------------------------------------------------
+
+Name: vCost
+ID: 4fc56b70-1335-458e-92d0-2099bc83f5f0
+Script Created: No
+Definition:
+-2
+
+--------------------------------------------------------------------------------
+
+Name: vSalesAnalysis
+ID: f1392c7a-298c-4ff6-9237-00229033e8ef
+Script Created: No
+Definition:
+1
+
+--------------------------------------------------------------------------------
+
+Name: vQVDPath
+ID: ff8185bf-099f-428e-ba8d-0c35a2a2f709
+Script Created: No
+Definition:
+Database\QVD\
+
+--------------------------------------------------------------------------------
+
+Name: vPrice
+ID: a7c71c1b-11fd-4ca7-b108-c99474c173e4
+Script Created: No
+Definition:
+1
+
+--------------------------------------------------------------------------------
+
+Name: vVolume
+ID: d2bbc76f-62d8-492b-a807-bbc74de94260
+Script Created: No
+Definition:
+0
+
+--------------------------------------------------------------------------------
+
+Name: vTargetSales
+ID: 4d2502f9-c479-470b-8965-15797d14238c
+Script Created: No
+Definition:
+=sum([Budget Amount])
+
+--------------------------------------------------------------------------------
+
+Name: vShowChart
+ID: 1caf4e6c-4ba9-4d68-8566-e5080eaf7fc6
+Script Created: No
+Definition:
+1
+
+--------------------------------------------------------------------------------
+
+Name: vYTDMonth
+ID: 35fbfa83-7019-459b-836e-6121b7dbe5f8
+Script Created: No
+Definition:
+=if(GetSelectedCount(FiscalMonth) = 0, Month(max({<_HistoryFlag = {"1"}>} YYYYMM)), concat(distinct FiscalMonth, ','))
+
+--------------------------------------------------------------------------------
+
+Name: vYear
+ID: 677f7430-e41f-4dd9-a4e3-067dfee269b5
+Script Created: No
+Definition:
+=Concat(DISTINCT [Fiscal Year], ',')
+
+--------------------------------------------------------------------------------
+
+Name: vTargetInventory
+ID: 7cf9bea6-a1ee-463c-a9fa-527f673141ea
+Script Created: No
+Definition:
+2000000
+
+--------------------------------------------------------------------------------
+
+Name: vTargetExpenses
+ID: 9ad9d784-3a47-4de6-a39c-ff991f03ff5f
+Script Created: No
+Definition:
+10500000
+
+--------------------------------------------------------------------------------
+
+Name: vLanguage
+ID: f9808367-304b-445a-9d14-8bf8c1443468
+Script Created: No
+Definition:
+=Minstring(_LANGUAGE)
+
+--------------------------------------------------------------------------------
+
+Name: vYTDYear
+ID: 2aac1f41-1d77-43bc-ae92-8f75dd73766a
+Script Created: No
+Definition:
+=max([Fiscal Year])
+
+--------------------------------------------------------------------------------
+
