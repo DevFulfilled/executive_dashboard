@@ -1,0 +1,91 @@
+SHEETS
+======
+
+KPI Dashboard
+-------------
+
+ID: 893ee002-c405-4e45-bc6c-179e69e17a32
+Type: sheet
+Rank: 2
+Published: No
+Approved: No
+Publish Time: 
+Created Date: 
+Modified Date: 
+Thumbnail: {
+    "qStaticContentUrl": {
+        "qUrl": "/api/v1/apps/c097d0d1-c7db-420e-a0fd-837d8e576ff6/media/files/KPI%20Dashboard1.png"
+    }
+}
+
+Description:
+The KPI Dashboard provides a high-level overview of the company in three areas: expenses, revenue and account receivables.
+
+--------------------------------------------------------------------------------
+
+Sales Analysis
+--------------
+
+ID: 04f05192-d8b1-43ab-8735-fbd0bfaf766f
+Type: sheet
+Rank: 3.25
+Published: No
+Approved: No
+Publish Time: 
+Created Date: 
+Modified Date: 
+Thumbnail: {
+    "qStaticContentUrl": {
+        "qUrl": "/api/v1/apps/c097d0d1-c7db-420e-a0fd-837d8e576ff6/media/files/Sales%20Analysis1.png"
+    }
+}
+
+Description:
+The Sales Analysis sheet allows the user to monitor the company's revenue to ensure it is on target for the year.
+
+--------------------------------------------------------------------------------
+
+Expenses
+--------
+
+ID: 72489935-515f-4efb-89c9-fcc39c733029
+Type: sheet
+Rank: 4.375
+Published: No
+Approved: No
+Publish Time: 
+Created Date: 
+Modified Date: 
+Thumbnail: {
+    "qStaticContentUrl": {
+        "qUrl": "/api/v1/apps/c097d0d1-c7db-420e-a0fd-837d8e576ff6/media/files/Expenses1.png"
+    }
+}
+
+Description:
+The expenses sheet shows the companies performance against expense budgets and vs the prior year.
+
+--------------------------------------------------------------------------------
+
+Account Receivable Analysis
+---------------------------
+
+ID: bd44a82b-1158-4654-9c6d-d84f6e335b10
+Type: sheet
+Rank: 5.5
+Published: No
+Approved: No
+Publish Time: 
+Created Date: 
+Modified Date: 
+Thumbnail: {
+    "qStaticContentUrl": {
+        "qUrl": "/api/v1/apps/c097d0d1-c7db-420e-a0fd-837d8e576ff6/media/files/Account%20Receivable%20Analysis1.png"
+    }
+}
+
+Description:
+The Account Receivables Analysis sheet provides a look at the amount due and days sales outstanding for customers.
+
+--------------------------------------------------------------------------------
+
