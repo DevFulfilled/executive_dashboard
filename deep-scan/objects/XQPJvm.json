@@ -1,0 +1,88 @@
+{
+    "object_id": "XQPJvm",
+    "object_type": "filterpane",
+    "properties": {
+        "appId": "2d79fccc-f622-4fd8-b156-f5c0ea0c1faf",
+        "components": [
+            {
+                "bgColor": [],
+                "key": "general",
+                "title": {
+                    "footer": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    },
+                    "main": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    },
+                    "subTitle": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    }
+                }
+            },
+            {
+                "background": {
+                    "color": {
+                        "alpha": 1,
+                        "color": "#00415a",
+                        "index": -1
+                    }
+                },
+                "content": {
+                    "fontColor": {
+                        "alpha": 1,
+                        "color": "#c4d2e4",
+                        "index": -1
+                    },
+                    "fontFamily": "Inter, sans-serif"
+                },
+                "header": {
+                    "fontColor": {
+                        "alpha": 1,
+                        "color": "#c4d2e4",
+                        "index": -1
+                    },
+                    "fontFamily": "Inter, sans-serif"
+                },
+                "key": "theme"
+            },
+            {
+                "key": "selections"
+            }
+        ],
+        "dimensions": [],
+        "disableNavMenu": false,
+        "footnote": "",
+        "qChildListDef": {
+            "qData": {
+                "info": "/qInfo"
+            }
+        },
+        "qInfo": {
+            "qId": "XQPJvm",
+            "qType": "filterpane"
+        },
+        "qMetaDef": [],
+        "showDetails": true,
+        "showDetailsExpression": false,
+        "showTitles": false,
+        "subtitle": "",
+        "title": "",
+        "version": "0.17.4",
+        "visualization": "filterpane"
+    }
+}
