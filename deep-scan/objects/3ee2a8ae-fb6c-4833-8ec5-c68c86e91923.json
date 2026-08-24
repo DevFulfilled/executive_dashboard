@@ -1,0 +1,372 @@
+{
+    "object_id": "3ee2a8ae-fb6c-4833-8ec5-c68c86e91923",
+    "object_type": "kpi",
+    "properties": {
+        "color": {
+            "useBaseColors": "measure"
+        },
+        "components": [
+            {
+                "bgColor": {
+                    "color": {
+                        "alpha": 1,
+                        "color": "#00415a",
+                        "index": -1
+                    }
+                },
+                "borderColor": {
+                    "alpha": 1,
+                    "color": "#00415a",
+                    "index": -1
+                },
+                "borderRadius": "7px",
+                "borderWidth": "10px",
+                "key": "general",
+                "shadow": {
+                    "boxShadow": "0px 1px 2px 0px"
+                },
+                "style": {
+                    "cornerRadius": 0,
+                    "innerRadius": 0.55,
+                    "strokeColor": {
+                        "color": "#FFFFFF",
+                        "index": -1
+                    },
+                    "strokeWidth": "none"
+                },
+                "title": {
+                    "footer": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    },
+                    "main": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    },
+                    "subTitle": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    }
+                }
+            },
+            {
+                "axis": {
+                    "label": {
+                        "name": {
+                            "color": {
+                                "alpha": 1,
+                                "color": "#c4d2e4",
+                                "index": -1
+                            },
+                            "fontFamily": "Inter, sans-serif"
+                        }
+                    },
+                    "title": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    }
+                },
+                "key": "axis"
+            },
+            {
+                "key": "value",
+                "label": {
+                    "value": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        }
+                    }
+                }
+            },
+            {
+                "key": "slices"
+            },
+            {
+                "key": "label",
+                "label": {
+                    "name": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    },
+                    "value": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    }
+                }
+            },
+            {
+                "key": "legend",
+                "legend": {
+                    "label": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    },
+                    "title": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    }
+                }
+            },
+            {
+                "bar": {
+                    "label": {
+                        "value": {
+                            "color": {
+                                "alpha": 1,
+                                "color": "#c4d2e4",
+                                "index": -1
+                            }
+                        }
+                    }
+                },
+                "key": "bar"
+            },
+            {
+                "key": "line"
+            },
+            {
+                "key": "textAlignment"
+            },
+            {
+                "key": "textBehavior",
+                "textBehavior": "relative"
+            },
+            {
+                "key": "useAdvancedMode",
+                "useAdvancedMode": true
+            },
+            {
+                "key": "simpleSettings"
+            },
+            {
+                "key": "firstMeasureTitle",
+                "label": {
+                    "name": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif",
+                        "fontSize": {
+                            "fluid": 0.43
+                        },
+                        "fontStyle": [
+                            "bold"
+                        ]
+                    }
+                }
+            },
+            {
+                "key": "firstMeasureValue",
+                "label": {
+                    "value": {
+                        "fontFamily": "Inter, sans-serif"
+                    }
+                }
+            },
+            {
+                "key": "secondMeasureTitle",
+                "label": {
+                    "name": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    }
+                }
+            },
+            {
+                "key": "secondMeasureValue",
+                "label": {
+                    "value": {
+                        "fontFamily": "Inter, sans-serif"
+                    }
+                }
+            }
+        ],
+        "fontSize": "M",
+        "footnote": "",
+        "openUrlInNewTab": true,
+        "qHyperCubeDef": {
+            "customErrorMessage": {
+                "calcCond": ""
+            },
+            "qCalcCond": [],
+            "qCalcCondition": {
+                "qCond": [],
+                "qMsg": []
+            },
+            "qColumnOrder": [],
+            "qDimensions": [],
+            "qDynamicScript": [],
+            "qExpansionState": [],
+            "qInitialDataFetch": [
+                {
+                    "qHeight": 10,
+                    "qLeft": 0,
+                    "qTop": 0,
+                    "qWidth": 500
+                }
+            ],
+            "qInterColumnSortOrder": [
+                0
+            ],
+            "qLayoutExclude": {
+                "qHyperCubeDef": {
+                    "qCalcCond": [],
+                    "qCalcCondition": {
+                        "qCond": [],
+                        "qMsg": []
+                    },
+                    "qColumnOrder": [],
+                    "qDimensions": [],
+                    "qDynamicScript": [],
+                    "qExpansionState": [],
+                    "qInitialDataFetch": [],
+                    "qInterColumnSortOrder": [],
+                    "qMaxStackedCells": 5000,
+                    "qMeasures": [],
+                    "qMode": "S",
+                    "qNoOfLeftDims": -1,
+                    "qPseudoDimPos": -1,
+                    "qReductionMode": "N",
+                    "qTitle": []
+                }
+            },
+            "qMaxStackedCells": 5000,
+            "qMeasures": [
+                {
+                    "qAttributeDimensions": [],
+                    "qAttributeExpressions": [],
+                    "qCalcCond": [],
+                    "qCalcCondition": {
+                        "qCond": [],
+                        "qMsg": []
+                    },
+                    "qDef": {
+                        "autoSort": true,
+                        "cId": "aMUdaz",
+                        "conditionalColoring": {
+                            "paletteSingleColor": {
+                                "color": "#c4d2e4",
+                                "index": -1
+                            },
+                            "segments": {
+                                "limits": [],
+                                "paletteColors": [
+                                    {
+                                        "color": "#ffffff",
+                                        "index": 1
+                                    }
+                                ]
+                            },
+                            "singleColor": 3,
+                            "useBaseColors": false,
+                            "useConditionalColoring": false
+                        },
+                        "measureAxis": {
+                            "max": 313319.0559000004,
+                            "min": 104439.68530000013
+                        },
+                        "numFormatFromTemplate": true,
+                        "qAccumulate": 0,
+                        "qActiveExpression": 0,
+                        "qExpressions": [],
+                        "qGrouping": "N",
+                        "qNumFormat": {
+                            "qDec": ".",
+                            "qFmt": "$#,##0;($#,##0)",
+                            "qThou": ",",
+                            "qType": "M",
+                            "qUseThou": 0,
+                            "qnDec": 2
+                        },
+                        "qTags": []
+                    },
+                    "qLibraryId": "vLRMZz",
+                    "qMiniChartDef": {
+                        "qAttributeExpressions": [],
+                        "qMaxNumberPoints": -1,
+                        "qOtherTotalSpec": {
+                            "qApplyEvenWhenPossiblyWrongResult": true,
+                            "qForceBadValueKeeping": true,
+                            "qOtherCounted": [],
+                            "qOtherLimit": [],
+                            "qOtherLimitMode": "OTHER_GT_LIMIT",
+                            "qOtherMode": "OTHER_OFF",
+                            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                            "qReferencedExpression": [],
+                            "qTotalMode": "TOTAL_OFF"
+                        },
+                        "qSortBy": {
+                            "qExpression": []
+                        }
+                    },
+                    "qSortBy": {
+                        "qExpression": [],
+                        "qSortByLoadOrder": 1,
+                        "qSortByNumeric": -1
+                    },
+                    "qTrendLines": []
+                }
+            ],
+            "qMode": "S",
+            "qNoOfLeftDims": -1,
+            "qPseudoDimPos": -1,
+            "qReductionMode": "N",
+            "qSuppressMissing": true,
+            "qTitle": []
+        },
+        "qInfo": {
+            "qId": "3ee2a8ae-fb6c-4833-8ec5-c68c86e91923",
+            "qType": "kpi"
+        },
+        "qMetaDef": [],
+        "sheetLink": "",
+        "showDetails": false,
+        "showMeasureTitle": true,
+        "showTitles": false,
+        "subtitle": "",
+        "textAlign": "center",
+        "title": "",
+        "useLink": false,
+        "visualization": "kpi"
+    }
+}
