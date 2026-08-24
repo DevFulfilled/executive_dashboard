@@ -1,0 +1,177 @@
+{
+    "object_id": "tmaqpf",
+    "object_type": "masterobject",
+    "properties": {
+        "color": {
+            "auto": false,
+            "dimensionId": "",
+            "dimensionScheme": "12",
+            "measureScheme": "sg",
+            "mode": "primary",
+            "persistent": false,
+            "reverseScheme": false,
+            "singleColor": "#276e27"
+        },
+        "footnote": "",
+        "labels": {
+            "auto": true,
+            "headers": true,
+            "leaves": true,
+            "overlay": true,
+            "values": true
+        },
+        "legend": {
+            "dock": "auto",
+            "showTitle": true
+        },
+        "masterVersion": 0.96,
+        "metadata": [],
+        "qHyperCubeDef": {
+            "qAlwaysFullyExpanded": true,
+            "qCalcCond": [],
+            "qCalcCondition": {
+                "qCond": [],
+                "qMsg": []
+            },
+            "qColumnOrder": [],
+            "qDimensions": [
+                {
+                    "qAttributeDimensions": [],
+                    "qAttributeExpressions": [],
+                    "qCalcCond": [],
+                    "qCalcCondition": {
+                        "qCond": [],
+                        "qMsg": []
+                    },
+                    "qDef": {
+                        "autoSort": true,
+                        "cId": "SBVPEh",
+                        "othersLabel": "Others",
+                        "qActiveField": 0,
+                        "qFieldDefs": [],
+                        "qFieldLabels": [],
+                        "qGrouping": "N",
+                        "qNumberPresentations": [],
+                        "qSortCriterias": [
+                            {
+                                "qExpression": [],
+                                "qSortByAscii": 1,
+                                "qSortByLoadOrder": 1
+                            }
+                        ]
+                    },
+                    "qLibraryId": "pmresb",
+                    "qOtherLabel": [],
+                    "qOtherTotalSpec": {
+                        "qApplyEvenWhenPossiblyWrongResult": true,
+                        "qForceBadValueKeeping": true,
+                        "qOtherCounted": {
+                            "qv": "10"
+                        },
+                        "qOtherLimit": {
+                            "qv": "0"
+                        },
+                        "qOtherLimitMode": "OTHER_GE_LIMIT",
+                        "qOtherMode": "OTHER_OFF",
+                        "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                        "qReferencedExpression": [],
+                        "qTotalMode": "TOTAL_OFF"
+                    },
+                    "qTotalLabel": []
+                }
+            ],
+            "qDynamicScript": [],
+            "qExpansionState": [],
+            "qInitialDataFetch": [
+                {
+                    "qHeight": 3000,
+                    "qLeft": 0,
+                    "qTop": 0,
+                    "qWidth": 30
+                }
+            ],
+            "qInterColumnSortOrder": [
+                1,
+                0
+            ],
+            "qMaxStackedCells": 3000,
+            "qMeasures": [
+                {
+                    "qAttributeDimensions": [],
+                    "qAttributeExpressions": [],
+                    "qCalcCond": [],
+                    "qCalcCondition": {
+                        "qCond": [],
+                        "qMsg": []
+                    },
+                    "qDef": {
+                        "autoSort": true,
+                        "cId": "CJdusf",
+                        "qAccumulate": 0,
+                        "qActiveExpression": 0,
+                        "qExpressions": [],
+                        "qGrouping": "N",
+                        "qNumFormat": {
+                            "qDec": ".",
+                            "qFmt": "$#,##0;($#,##0)",
+                            "qThou": ",",
+                            "qType": "M",
+                            "qUseThou": 0,
+                            "qnDec": 10
+                        },
+                        "qTags": []
+                    },
+                    "qLibraryId": "NPPsJt",
+                    "qMiniChartDef": {
+                        "qAttributeExpressions": [],
+                        "qMaxNumberPoints": -1,
+                        "qOtherTotalSpec": {
+                            "qApplyEvenWhenPossiblyWrongResult": true,
+                            "qForceBadValueKeeping": true,
+                            "qOtherCounted": [],
+                            "qOtherLimit": [],
+                            "qOtherLimitMode": "OTHER_GT_LIMIT",
+                            "qOtherMode": "OTHER_OFF",
+                            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                            "qReferencedExpression": [],
+                            "qTotalMode": "TOTAL_OFF"
+                        },
+                        "qSortBy": {
+                            "qExpression": []
+                        }
+                    },
+                    "qSortBy": {
+                        "qExpression": [],
+                        "qSortByLoadOrder": 1,
+                        "qSortByNumeric": -1
+                    },
+                    "qTrendLines": [],
+                    "showInPercent": false
+                }
+            ],
+            "qMode": "K",
+            "qNoOfLeftDims": -1,
+            "qPseudoDimPos": 0,
+            "qReductionMode": "N",
+            "qSuppressMissing": true,
+            "qSuppressZero": true,
+            "qTitle": []
+        },
+        "qInfo": {
+            "qId": "tmaqpf",
+            "qType": "masterobject"
+        },
+        "qMetaDef": {
+            "description": "View revenue by product.",
+            "tags": [
+                "product",
+                "revenue"
+            ],
+            "title": "Revenue by Product"
+        },
+        "showTitles": true,
+        "subtitle": "",
+        "title": "Revenue by Product",
+        "visualization": "treemap"
+    }
+}
