@@ -1,0 +1,44 @@
+{
+    "object_id": "64fead47-7c4c-49c7-a502-a2a1a2d18342",
+    "object_type": "listbox",
+    "properties": {
+        "checkboxes": true,
+        "footnote": "",
+        "qInfo": {
+            "qId": "64fead47-7c4c-49c7-a502-a2a1a2d18342",
+            "qType": "listbox"
+        },
+        "qListObjectDef": {
+            "qDef": {
+                "autoSort": true,
+                "cId": "YhqhR",
+                "qActiveField": 0,
+                "qFieldDefs": [],
+                "qFieldLabels": [],
+                "qGrouping": "N",
+                "qNumberPresentations": [],
+                "qSortCriterias": [
+                    {
+                        "qExpression": [],
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qSortByNumeric": 1,
+                        "qSortByState": 1
+                    }
+                ]
+            },
+            "qExpressions": [],
+            "qFrequencyMode": "N",
+            "qInitialDataFetch": [],
+            "qLibraryId": "aLVsP",
+            "qOtherTotalSpec": [],
+            "qShowAlternatives": true
+        },
+        "qMetaDef": [],
+        "showDetails": false,
+        "showTitles": true,
+        "subtitle": "",
+        "title": "Account",
+        "visualization": "listbox"
+    }
+}

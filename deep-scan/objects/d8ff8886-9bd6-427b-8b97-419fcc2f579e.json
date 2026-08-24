@@ -1,0 +1,44 @@
+{
+    "object_id": "d8ff8886-9bd6-427b-8b97-419fcc2f579e",
+    "object_type": "listbox",
+    "properties": {
+        "checkboxes": true,
+        "footnote": "",
+        "qInfo": {
+            "qId": "d8ff8886-9bd6-427b-8b97-419fcc2f579e",
+            "qType": "listbox"
+        },
+        "qListObjectDef": {
+            "qDef": {
+                "autoSort": true,
+                "cId": "PJPQTYj",
+                "qActiveField": 0,
+                "qFieldDefs": [],
+                "qFieldLabels": [],
+                "qGrouping": "N",
+                "qLabel": "Region",
+                "qNumberPresentations": [],
+                "qSortCriterias": [
+                    {
+                        "qExpression": [],
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qSortByNumeric": 1,
+                        "qSortByState": 1
+                    }
+                ]
+            },
+            "qExpressions": [],
+            "qFrequencyMode": "N",
+            "qInitialDataFetch": [],
+            "qLibraryId": "jgxpDbw",
+            "qOtherTotalSpec": [],
+            "qShowAlternatives": true
+        },
+        "qMetaDef": [],
+        "showTitles": true,
+        "subtitle": "",
+        "title": "Region",
+        "visualization": "listbox"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "object_id": "a65236ed-8a11-4960-80b7-51af11e5a0b0",
+    "object_type": "listbox",
+    "properties": {
+        "checkboxes": true,
+        "footnote": "",
+        "layoutOptions": {
+            "dense": false
+        },
+        "qInfo": {
+            "qId": "a65236ed-8a11-4960-80b7-51af11e5a0b0",
+            "qType": "listbox"
+        },
+        "qListObjectDef": {
+            "qDef": {
+                "autoSort": true,
+                "cId": "MvmGbm",
+                "qActiveField": 0,
+                "qFieldDefs": [],
+                "qFieldLabels": [],
+                "qGrouping": "N",
+                "qLabel": "Segment",
+                "qNumberPresentations": [],
+                "qSortCriterias": [
+                    {
+                        "qExpression": [],
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qSortByNumeric": 1,
+                        "qSortByState": 1
+                    }
+                ]
+            },
+            "qExpressions": [],
+            "qFrequencyMode": "N",
+            "qInitialDataFetch": [],
+            "qLibraryId": "wLJmmJn",
+            "qOtherTotalSpec": [],
+            "qShowAlternatives": true
+        },
+        "qMetaDef": [],
+        "showTitles": true,
+        "subtitle": "",
+        "title": "Segment",
+        "visualization": "listbox"
+    }
+}
