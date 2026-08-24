@@ -1,0 +1,44 @@
+{
+    "object_id": "9847e895-00e3-4d72-905f-b1d535a84ce7",
+    "object_type": "listbox",
+    "properties": {
+        "checkboxes": true,
+        "footnote": "",
+        "qInfo": {
+            "qId": "9847e895-00e3-4d72-905f-b1d535a84ce7",
+            "qType": "listbox"
+        },
+        "qListObjectDef": {
+            "qDef": {
+                "autoSort": true,
+                "cId": "ayEjwG",
+                "qActiveField": 0,
+                "qFieldDefs": [],
+                "qFieldLabels": [],
+                "qGrouping": "N",
+                "qLabel": "Sales Rep Name",
+                "qNumberPresentations": [],
+                "qSortCriterias": [
+                    {
+                        "qExpression": [],
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qSortByNumeric": 1,
+                        "qSortByState": 1
+                    }
+                ]
+            },
+            "qExpressions": [],
+            "qFrequencyMode": "N",
+            "qInitialDataFetch": [],
+            "qLibraryId": "XFhtUb",
+            "qOtherTotalSpec": [],
+            "qShowAlternatives": true
+        },
+        "qMetaDef": [],
+        "showTitles": true,
+        "subtitle": "",
+        "title": "Sales Rep Name",
+        "visualization": "listbox"
+    }
+}
