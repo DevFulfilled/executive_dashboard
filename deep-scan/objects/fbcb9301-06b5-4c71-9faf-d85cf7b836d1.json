@@ -1,0 +1,285 @@
+{
+    "object_id": "fbcb9301-06b5-4c71-9faf-d85cf7b836d1",
+    "object_type": "gauge",
+    "properties": {
+        "angle": 0.7,
+        "appId": "bf42b75c-cb99-41b3-bf76-38882c744120",
+        "autoOrientation": true,
+        "childRefId": "pnwpmSyn",
+        "color": {
+            "useBaseColors": "off"
+        },
+        "components": [
+            {
+                "bgColor": {
+                    "color": {
+                        "alpha": 1,
+                        "color": "#00415a",
+                        "index": -1
+                    }
+                },
+                "key": "general",
+                "title": {
+                    "footer": {
+                        "fontFamily": "Inter, sans-serif"
+                    },
+                    "main": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    },
+                    "subTitle": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    }
+                }
+            },
+            {
+                "axis": {
+                    "label": {
+                        "name": {
+                            "color": {
+                                "alpha": 1,
+                                "color": "#c4d2e4",
+                                "index": -1
+                            }
+                        }
+                    },
+                    "title": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        }
+                    }
+                },
+                "key": "axis"
+            },
+            {
+                "key": "value",
+                "label": {
+                    "value": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        }
+                    }
+                }
+            }
+        ],
+        "disableNavMenu": false,
+        "disclaimerClosed": true,
+        "footnote": "",
+        "gaugetype": "bar",
+        "maxMinChanged": true,
+        "maxSegments": 6,
+        "measureAxis": {
+            "label": "auto",
+            "max": {
+                "qValueExpression": {
+                    "qExpr": "=(Sum({<[Fiscal Year]={$(vYTDYear)}>} AROpen)-Sum({<[Fiscal Year]={$(vYTDYear)}>} ARCurrent))/Sum({<[Fiscal Year]={$(vYTDYear)}>} AROpen)+0.10"
+                }
+            },
+            "min": 0,
+            "show": "labels",
+            "spacing": 1
+        },
+        "orientation": "horizontal",
+        "paletteProgressColor": {
+            "color": "#4477aa",
+            "index": -1
+        },
+        "progressColor": "#4477aa",
+        "qHyperCubeDef": {
+            "qCalcCond": [],
+            "qCalcCondition": {
+                "qCond": [],
+                "qMsg": []
+            },
+            "qColumnOrder": [],
+            "qDimensions": [],
+            "qDynamicScript": [],
+            "qExpansionState": [],
+            "qInitialDataFetch": [
+                {
+                    "qHeight": 1,
+                    "qLeft": 0,
+                    "qTop": 0,
+                    "qWidth": 1
+                }
+            ],
+            "qInterColumnSortOrder": [
+                0
+            ],
+            "qLayoutExclude": {
+                "qHyperCubeDef": {
+                    "qCalcCond": [],
+                    "qCalcCondition": {
+                        "qCond": [],
+                        "qMsg": []
+                    },
+                    "qColumnOrder": [],
+                    "qDimensions": [],
+                    "qDynamicScript": [],
+                    "qExpansionState": [],
+                    "qInitialDataFetch": [],
+                    "qInterColumnSortOrder": [],
+                    "qMaxStackedCells": 5000,
+                    "qMeasures": [],
+                    "qMode": "S",
+                    "qNoOfLeftDims": -1,
+                    "qPseudoDimPos": -1,
+                    "qReductionMode": "N",
+                    "qTitle": []
+                }
+            },
+            "qMaxStackedCells": 5000,
+            "qMeasures": [
+                {
+                    "qAttributeDimensions": [],
+                    "qAttributeExpressions": [],
+                    "qCalcCond": [],
+                    "qCalcCondition": {
+                        "qCond": [],
+                        "qMsg": []
+                    },
+                    "qDef": {
+                        "autoSort": true,
+                        "cId": "mukaftV",
+                        "isCustomFormatted": false,
+                        "qAccumulate": 0,
+                        "qActiveExpression": 0,
+                        "qDef": "(Sum({<[Fiscal Year]={$(vYTDYear)}>} AROpen)-Sum({<[Fiscal Year]={$(vYTDYear)}>} ARCurrent))/Sum({<[Fiscal Year]={$(vYTDYear)}>} AROpen)",
+                        "qExpressions": [],
+                        "qGrouping": "N",
+                        "qLabel": "AR % Overdue",
+                        "qNumFormat": {
+                            "qDec": ".",
+                            "qFmt": "0%",
+                            "qThou": ",",
+                            "qType": "F",
+                            "qUseThou": 0,
+                            "qnDec": 2
+                        },
+                        "qTags": []
+                    },
+                    "qMiniChartDef": {
+                        "qAttributeExpressions": [],
+                        "qMaxNumberPoints": -1,
+                        "qOtherTotalSpec": {
+                            "qApplyEvenWhenPossiblyWrongResult": true,
+                            "qForceBadValueKeeping": true,
+                            "qOtherCounted": [],
+                            "qOtherLimit": [],
+                            "qOtherLimitMode": "OTHER_GT_LIMIT",
+                            "qOtherMode": "OTHER_OFF",
+                            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                            "qReferencedExpression": [],
+                            "qTotalMode": "TOTAL_OFF"
+                        },
+                        "qSortBy": {
+                            "qExpression": []
+                        }
+                    },
+                    "qSortBy": {
+                        "qExpression": [],
+                        "qSortByLoadOrder": 1,
+                        "qSortByNumeric": -1
+                    },
+                    "qTrendLines": [],
+                    "showInPercent": false
+                }
+            ],
+            "qMode": "S",
+            "qNoOfLeftDims": -1,
+            "qPseudoDimPos": -1,
+            "qReductionMode": "N",
+            "qSuppressMissing": true,
+            "qTitle": []
+        },
+        "qInfo": {
+            "qId": "fbcb9301-06b5-4c71-9faf-d85cf7b836d1",
+            "qType": "gauge"
+        },
+        "qMetaDef": [],
+        "refLine": {
+            "refLines": [
+                {
+                    "$$hashKey": "9FC",
+                    "cId": "qxeCW",
+                    "color": "#4477aa",
+                    "label": "",
+                    "refLineExpr": {
+                        "label": "0.22",
+                        "value": 0.22
+                    },
+                    "show": true
+                }
+            ]
+        },
+        "script": "",
+        "segmentInfo": {
+            "colors": [
+                {
+                    "color": "#46c646"
+                },
+                {
+                    "color": "#ffcf02"
+                },
+                {
+                    "color": "#f93f17"
+                }
+            ],
+            "limits": [
+                {
+                    "$$hashKey": "57U",
+                    "gradient": true,
+                    "value": 0.05
+                },
+                {
+                    "$$hashKey": "5AK",
+                    "gradient": true,
+                    "value": 0.38
+                }
+            ],
+            "paletteColors": [
+                {
+                    "color": "#46c646",
+                    "index": 2
+                },
+                {
+                    "color": "#ffcf02",
+                    "index": 8
+                },
+                {
+                    "color": "#f93f17",
+                    "index": 10
+                }
+            ]
+        },
+        "showDetails": true,
+        "showDetailsExpression": false,
+        "showTitles": true,
+        "subtitle": {
+            "qStringExpression": {
+                "qExpr": "'Account Receivable Target = ' & num(.22, '#,##0%')"
+            }
+        },
+        "title": {
+            "qStringExpression": {
+                "qExpr": "='Account Receivable Overdue  =  ' & num((Sum({<[Fiscal Year]={$(vYTDYear)}>} AROpen)-Sum({<[Fiscal Year]={$(vYTDYear)}>} ARCurrent))/Sum({<[Fiscal Year]={$(vYTDYear)}>} AROpen), '#,##0%')"
+            }
+        },
+        "useSegments": true,
+        "valueMode": "absolute",
+        "visualization": "gauge"
+    }
+}
