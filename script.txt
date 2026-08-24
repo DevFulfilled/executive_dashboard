@@ -451,6 +451,8 @@ WHERE AccountDesc > 0;
 CustomerAddressMaster:
 LOAD "Address Number", 
      "Customer Address 1", 
+     "Customer Address 2",
+     "Region", 
      "Zip Code"
 FROM 'lib://Executive Dashboard Data/CustomerAddressMaster.qvd' (qvd);
 Directory;
