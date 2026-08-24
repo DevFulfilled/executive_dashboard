@@ -1,0 +1,312 @@
+{
+    "object_id": "7ed6fd8b-1cec-4fd5-83d4-2125564ec48d",
+    "object_type": "masterobject",
+    "properties": {
+        "barGrouping": {
+            "grouping": "grouped"
+        },
+        "color": {
+            "altLabel": "napvtJ",
+            "auto": false,
+            "autoMinMax": true,
+            "byMeasureDef": {
+                "key": "napvtJ",
+                "label": "napvtJ",
+                "type": "libraryItem"
+            },
+            "dimensionScheme": "12",
+            "expressionIsColor": true,
+            "expressionLabel": "",
+            "formatting": {
+                "numFormatFromTemplate": true
+            },
+            "measureMax": 10,
+            "measureMin": 0,
+            "measureScheme": "sg",
+            "mode": "byMeasure",
+            "paletteColor": {
+                "index": 6
+            },
+            "persistent": false,
+            "reverseScheme": false,
+            "singleColor": "#4477aa",
+            "useBaseColors": "off",
+            "useDimColVal": true,
+            "useMeasureGradient": true
+        },
+        "components": [],
+        "dataPoint": {
+            "auto": false,
+            "labelMode": "share",
+            "showLabels": true,
+            "showSegmentLabels": false,
+            "showTotalLabels": true
+        },
+        "dimensionAxis": {
+            "axisDisplayMode": "auto",
+            "continuousAuto": true,
+            "dock": "near",
+            "label": "auto",
+            "maxVisibleItems": 10,
+            "show": "all"
+        },
+        "disableNavMenu": false,
+        "footnote": "",
+        "gridLine": {
+            "auto": true,
+            "spacing": 2
+        },
+        "legend": {
+            "dock": "auto",
+            "show": false,
+            "showTitle": true
+        },
+        "measureAxis": {
+            "autoMinMax": true,
+            "dock": "near",
+            "max": 10,
+            "min": 0,
+            "minMax": "min",
+            "show": "all",
+            "spacing": 1
+        },
+        "metadata": [],
+        "orientation": "vertical",
+        "preferContinuousAxis": true,
+        "qHyperCubeDef": {
+            "qCalcCond": [],
+            "qCalcCondition": {
+                "qCond": [],
+                "qMsg": []
+            },
+            "qColumnOrder": [],
+            "qDimensions": [
+                {
+                    "othersLabel": "Others",
+                    "qAttributeDimensions": [],
+                    "qAttributeExpressions": [
+                        {
+                            "colorMapRef": "napvtJ",
+                            "id": "colorByAlternative",
+                            "matchMeasure": -1,
+                            "qAttribute": true,
+                            "qLibraryId": "napvtJ"
+                        }
+                    ],
+                    "qCalcCond": [],
+                    "qCalcCondition": {
+                        "qCond": [],
+                        "qMsg": []
+                    },
+                    "qDef": {
+                        "autoSort": true,
+                        "cId": "ptjp",
+                        "othersLabel": "Others",
+                        "qActiveField": 0,
+                        "qFieldDefs": [
+                            "AccountDesc"
+                        ],
+                        "qFieldLabels": [
+                            "AccountDesc"
+                        ],
+                        "qGrouping": "N",
+                        "qNumberPresentations": [],
+                        "qSortCriterias": [
+                            {
+                                "qExpression": [],
+                                "qSortByAscii": 1,
+                                "qSortByLoadOrder": 1,
+                                "qSortByNumeric": 1
+                            }
+                        ]
+                    },
+                    "qOtherLabel": {
+                        "qv": "Others"
+                    },
+                    "qOtherTotalSpec": {
+                        "qApplyEvenWhenPossiblyWrongResult": true,
+                        "qForceBadValueKeeping": true,
+                        "qOtherCounted": {
+                            "qv": "10"
+                        },
+                        "qOtherLimit": {
+                            "qv": "0"
+                        },
+                        "qOtherLimitMode": "OTHER_GE_LIMIT",
+                        "qOtherMode": "OTHER_COUNTED",
+                        "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                        "qReferencedExpression": [],
+                        "qTotalMode": "TOTAL_OFF"
+                    },
+                    "qTotalLabel": []
+                }
+            ],
+            "qDynamicScript": [],
+            "qExpansionState": [],
+            "qInitialDataFetch": [
+                {
+                    "qHeight": 500,
+                    "qLeft": 0,
+                    "qTop": 0,
+                    "qWidth": 17
+                }
+            ],
+            "qInterColumnSortOrder": [
+                1,
+                0
+            ],
+            "qLayoutExclude": {
+                "qHyperCubeDef": {
+                    "qCalcCond": [],
+                    "qCalcCondition": {
+                        "qCond": [],
+                        "qMsg": []
+                    },
+                    "qColumnOrder": [],
+                    "qDimensions": [],
+                    "qDynamicScript": [],
+                    "qExpansionState": [],
+                    "qInitialDataFetch": [],
+                    "qInterColumnSortOrder": [],
+                    "qMaxStackedCells": 5000,
+                    "qMeasures": [],
+                    "qMode": "S",
+                    "qNoOfLeftDims": -1,
+                    "qPseudoDimPos": -1,
+                    "qReductionMode": "N",
+                    "qTitle": []
+                }
+            },
+            "qMaxStackedCells": 5000,
+            "qMeasures": [
+                {
+                    "qAttributeDimensions": [],
+                    "qAttributeExpressions": [],
+                    "qCalcCond": [],
+                    "qCalcCondition": {
+                        "qCond": [],
+                        "qMsg": []
+                    },
+                    "qDef": {
+                        "autoSort": true,
+                        "base": {
+                            "qDef": "",
+                            "qLabel": "",
+                            "qLabelExpression": "",
+                            "qLibraryId": "napvtJ"
+                        },
+                        "cId": "VyRQgX",
+                        "coloring": {
+                            "baseColor": {
+                                "color": "#7db8da",
+                                "index": 5
+                            }
+                        },
+                        "isCustomFormatted": false,
+                        "modifiers": [
+                            {
+                                "base": {
+                                    "qDef": "",
+                                    "qLabel": "",
+                                    "qLabelExpression": "",
+                                    "qLibraryId": "napvtJ"
+                                },
+                                "dimensionalScope": 2,
+                                "disabled": false,
+                                "outputExpression": " (　sum(ExpenseActual)　) / Sum( Total Aggr(  (　sum(ExpenseActual)　) , [$(=Replace(GetObjectField(0),']',']]'))]))",
+                                "primaryDimension": 0,
+                                "selectionScope": 0,
+                                "type": "normalization"
+                            }
+                        ],
+                        "numFormatFromTemplate": true,
+                        "qAccumulate": 0,
+                        "qActiveExpression": 0,
+                        "qDef": " (　sum(ExpenseActual)　) / Sum( Total Aggr(  (　sum(ExpenseActual)　) , [$(=Replace(GetObjectField(0),']',']]'))]))",
+                        "qExpressions": [],
+                        "qGrouping": "N",
+                        "qLabel": "Expense Amount",
+                        "qNumFormat": {
+                            "qDec": ".",
+                            "qFmt": "0.0%",
+                            "qThou": ",",
+                            "qType": "F",
+                            "qUseThou": 0,
+                            "qnDec": 2
+                        },
+                        "qTags": []
+                    },
+                    "qMiniChartDef": {
+                        "qAttributeExpressions": [],
+                        "qMaxNumberPoints": -1,
+                        "qOtherTotalSpec": {
+                            "qApplyEvenWhenPossiblyWrongResult": true,
+                            "qForceBadValueKeeping": true,
+                            "qOtherCounted": [],
+                            "qOtherLimit": [],
+                            "qOtherLimitMode": "OTHER_GT_LIMIT",
+                            "qOtherMode": "OTHER_OFF",
+                            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                            "qReferencedExpression": [],
+                            "qTotalMode": "TOTAL_OFF"
+                        },
+                        "qSortBy": {
+                            "qExpression": []
+                        }
+                    },
+                    "qSortBy": {
+                        "qExpression": [],
+                        "qSortByLoadOrder": 1,
+                        "qSortByNumeric": -1
+                    },
+                    "qTrendLines": [],
+                    "showInPercent": false,
+                    "title": "Expense Amount"
+                }
+            ],
+            "qMode": "S",
+            "qNoOfLeftDims": -1,
+            "qPseudoDimPos": -1,
+            "qReductionMode": "N",
+            "qSuppressMissing": true,
+            "qSuppressZero": true,
+            "qTitle": []
+        },
+        "qInfo": {
+            "qId": "7ed6fd8b-1cec-4fd5-83d4-2125564ec48d",
+            "qType": "masterobject"
+        },
+        "qLayoutExclude": [],
+        "qMetaDef": {
+            "tags": [],
+            "title": "Expenses by Accounts"
+        },
+        "refLine": {
+            "dimRefLines": [],
+            "refLines": []
+        },
+        "scrollStartPos": 0,
+        "scrollbar": "miniChart",
+        "showDetails": false,
+        "showDisclaimer": true,
+        "showMiniChartForContinuousAxis": true,
+        "showTitles": true,
+        "subtitle": {
+            "qStringExpression": {
+                "qExpr": "'Total Expenses = ' & num(sum(ExpenseActual), '$#,##0')"
+            }
+        },
+        "title": "Expenses by Accounts",
+        "tooltip": {
+            "auto": true,
+            "chart": {
+                "style": {
+                    "size": "medium"
+                }
+            },
+            "data": [],
+            "hideBasic": false
+        },
+        "visualization": "barchart"
+    }
+}
