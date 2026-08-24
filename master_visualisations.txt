@@ -1,0 +1,181 @@
+MASTER VISUALISATIONS
+=====================
+
+Product Inventory Turns, Amount and Margin%
+-------------------------------------------
+
+ID: JZMrdb
+Object Type: masterobject
+Visualisation Type: table
+Tags: 
+Published: Yes
+Approved: Yes
+Publish Time: 2024-03-21T21:19:12.930Z
+Created Date: 2026-07-03T11:19:03.912Z
+Modified Date: 2026-07-03T11:19:03.912Z
+Owner: auth0|a08D000000d9u66IAA
+
+Description:
+Products in inventory and their dollar value, margin and number of inventory turns.
+
+--------------------------------------------------------------------------------
+
+Amount Overdue by Customers
+---------------------------
+
+ID: eff0d3b1-6415-4975-8cd4-da7c4969a334
+Object Type: masterobject
+Visualisation Type: barchart
+Tags: 
+Published: Yes
+Approved: Yes
+Publish Time: 2024-03-21T21:19:12.930Z
+Created Date: 2026-07-03T11:19:03.910Z
+Modified Date: 2026-07-03T11:19:03.910Z
+Owner: auth0|a08D000000d9u66IAA
+
+--------------------------------------------------------------------------------
+
+Cost Center Report (000s)
+-------------------------
+
+ID: FDJPm
+Object Type: masterobject
+Visualisation Type: table
+Tags: cost center, expenses
+Published: Yes
+Approved: Yes
+Publish Time: 2024-03-21T21:19:12.930Z
+Created Date: 2026-07-03T11:19:03.867Z
+Modified Date: 2026-07-03T11:19:03.867Z
+Owner: auth0|a08D000000d9u66IAA
+
+Description:
+Expense details such as Account Group, account, Expenses and Budget.
+
+--------------------------------------------------------------------------------
+
+Customer Revenue vs. Expense
+----------------------------
+
+ID: pDKRhr
+Object Type: masterobject
+Visualisation Type: scatterplot
+Tags: 
+Published: Yes
+Approved: Yes
+Publish Time: 2024-03-21T21:19:12.930Z
+Created Date: 2026-07-03T11:19:03.907Z
+Modified Date: 2026-07-03T11:19:03.907Z
+Owner: auth0|a08D000000d9u66IAA
+
+Description:
+Correlation between customer revenue and expense amount.
+
+--------------------------------------------------------------------------------
+
+Expenses as % Sales
+-------------------
+
+ID: BHTXyNM
+Object Type: masterobject
+Visualisation Type: piechart
+Tags: expenses
+Published: Yes
+Approved: Yes
+Publish Time: 2024-03-21T21:19:12.930Z
+Created Date: 2026-07-03T11:19:03.880Z
+Modified Date: 2026-07-03T11:19:03.880Z
+Owner: auth0|a08D000000d9u66IAA
+
+Description:
+The expenses as a percentage of the sales.
+
+--------------------------------------------------------------------------------
+
+Expenses by Accounts
+--------------------
+
+ID: 7ed6fd8b-1cec-4fd5-83d4-2125564ec48d
+Object Type: masterobject
+Visualisation Type: barchart
+Tags: 
+Published: Yes
+Approved: Yes
+Publish Time: 2024-03-21T21:19:12.930Z
+Created Date: 2026-07-03T11:19:03.866Z
+Modified Date: 2026-07-03T11:19:03.866Z
+Owner: auth0|a08D000000d9u66IAA
+
+--------------------------------------------------------------------------------
+
+Onhand Inventory $ (sorted by Sales Qty)
+----------------------------------------
+
+ID: nRxXG
+Object Type: masterobject
+Visualisation Type: barchart
+Tags: inventory
+Published: Yes
+Approved: Yes
+Publish Time: 2024-03-21T21:19:12.930Z
+Created Date: 2026-07-03T11:19:03.890Z
+Modified Date: 2026-07-03T11:19:03.890Z
+Owner: auth0|a08D000000d9u66IAA
+
+Description:
+Inventory that is available to be sold.
+
+--------------------------------------------------------------------------------
+
+Revenue by Product
+------------------
+
+ID: tmaqpf
+Object Type: masterobject
+Visualisation Type: treemap
+Tags: product, revenue
+Published: Yes
+Approved: Yes
+Publish Time: 2024-03-21T21:19:12.930Z
+Created Date: 2026-07-03T11:19:03.877Z
+Modified Date: 2026-07-03T11:19:03.877Z
+Owner: auth0|a08D000000d9u66IAA
+
+Description:
+View revenue by product.
+
+--------------------------------------------------------------------------------
+
+Revenue by Products
+-------------------
+
+ID: c84a7c6a-e46e-4fe7-b64c-9267f672736f
+Object Type: masterobject
+Visualisation Type: barchart
+Tags: 
+Published: Yes
+Approved: Yes
+Publish Time: 2024-03-21T21:19:12.930Z
+Created Date: 2026-07-03T11:19:03.902Z
+Modified Date: 2026-07-03T11:19:03.902Z
+Owner: auth0|a08D000000d9u66IAA
+
+--------------------------------------------------------------------------------
+
+Sales vs Margin by Sales Rep
+----------------------------
+
+ID: 7bc690d0-0c23-4d9a-a46d-0f02192324d0
+Object Type: masterobject
+Visualisation Type: scatterplot
+Tags: 
+Published: Yes
+Approved: Yes
+Publish Time: 2024-03-21T21:19:12.930Z
+Created Date: 2026-07-03T11:19:03.916Z
+Modified Date: 2026-07-03T11:19:03.916Z
+Owner: auth0|a08D000000d9u66IAA
+
+--------------------------------------------------------------------------------
+
