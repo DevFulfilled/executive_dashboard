@@ -1,0 +1,33 @@
+BOOKMARKS
+=========
+
+Sales Analysis - High Margin Sales
+----------------------------------
+
+ID: uFjMpUZ
+Type: bookmark
+Sheet ID: FaQeFa
+Creation Date: 2014-08-14
+Published: Yes
+Approved: Yes
+Publish Time: 2024-03-21T21:19:12.930Z
+Owner: auth0|a08D000000d9u66IAA
+Selection Fields: Product Sub Group Desc, Sales Rep Name
+
+--------------------------------------------------------------------------------
+
+Sales Analysis - Low Margin Sales
+---------------------------------
+
+ID: SmDXrz
+Type: bookmark
+Sheet ID: FaQeFa
+Creation Date: 2014-08-14
+Published: Yes
+Approved: Yes
+Publish Time: 2024-03-21T21:19:12.930Z
+Owner: auth0|a08D000000d9u66IAA
+Selection Fields: Product Sub Group Desc, Sales Rep Name
+
+--------------------------------------------------------------------------------
+
