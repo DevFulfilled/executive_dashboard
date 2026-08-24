@@ -1,0 +1,146 @@
+{
+    "object_id": "ZTbfvp",
+    "object_type": "sn-layout-container",
+    "properties": {
+        "components": [
+            {
+                "bgColor": {
+                    "color": {
+                        "alpha": 1,
+                        "color": "#00415a",
+                        "index": -1
+                    }
+                },
+                "borderColor": {
+                    "alpha": 1,
+                    "color": "#00415a",
+                    "index": -1
+                },
+                "borderRadius": "7px",
+                "borderWidth": "10px",
+                "key": "general",
+                "shadow": {
+                    "boxShadow": "0px 2px 6px 0px"
+                },
+                "title": {
+                    "footer": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    },
+                    "main": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    },
+                    "subTitle": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    }
+                }
+            }
+        ],
+        "constrainToContainer": false,
+        "disableNavMenu": false,
+        "extensionMeta": {
+            "IconDefinition": [],
+            "author": "QlikTech International AB",
+            "bundle": {
+                "description": "This is a set of supported objects that will facilitate dashboard creation in Qlik Sense. These can be used in addition to the objects found under \"Charts\".\n\nFor limitations and support conditions, see the documentation.",
+                "id": "qlik-dashboard-bundle",
+                "name": "Qlik Dashboard bundle"
+            },
+            "description": "The layout container object has a canvas that can hold multiple objects. In this container you can freely move objects around, as well as position the objects on top of each other or overlapping.",
+            "folder": "_dashboard-bundle",
+            "icon": "layout-container",
+            "iconChar": "puzzle",
+            "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+            "installer": "QlikExtensionBundler",
+            "isLibraryItem": true,
+            "isThirdParty": true,
+            "name": "Layout container",
+            "supernova": true,
+            "template": "sn-layout-container",
+            "translationKey": "",
+            "type": "visualization",
+            "version": "3.2.1",
+            "visible": true
+        },
+        "footnote": "",
+        "gridColumnCount": 36,
+        "gridRowCount": 24,
+        "objects": [
+            {
+                "bounds": {
+                    "height": 32.50386,
+                    "width": 95,
+                    "x": 2.90062,
+                    "y": 66.17181
+                },
+                "childRefId": "KXmEvam",
+                "condition": {
+                    "qValueExpression": []
+                },
+                "label": "Revenue Trend"
+            },
+            {
+                "bounds": {
+                    "height": 32.50386,
+                    "width": 95,
+                    "x": 2.90062,
+                    "y": 28.52706
+                },
+                "childRefId": "pKPqwQDR",
+                "condition": {
+                    "qValueExpression": []
+                },
+                "label": "Revenue by Products"
+            },
+            {
+                "bounds": {
+                    "height": 22.87189,
+                    "width": 95,
+                    "x": 2.90062,
+                    "y": 3.2442
+                },
+                "childRefId": "cssvuPj",
+                "condition": {
+                    "qValueExpression": []
+                },
+                "label": "='Revenue vs Last Year Revenue = '& num(Sum({<[Fiscal Year]={$(vYTDYear)}>}[Sales Price]*[Sales Quantity])/Sum({<[Fiscal Year]={$(vYTDYear)-1)}>}[Sales Price]*[Sales Quantity]), '#,##0%')"
+            }
+        ],
+        "qChildListDef": {
+            "qData": {
+                "childRefId": "/childRefId",
+                "qExtendsId": "/qExtendsId",
+                "title": "/title",
+                "visualization": "/visualization"
+            }
+        },
+        "qInfo": {
+            "qId": "ZTbfvp",
+            "qType": "sn-layout-container"
+        },
+        "qMetaDef": [],
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "showGridLines": false,
+        "showTitles": true,
+        "snapToGrid": false,
+        "subtitle": "",
+        "title": "REVENUE",
+        "version": "3.2.1",
+        "visualization": "sn-layout-container"
+    }
+}
