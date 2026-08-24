@@ -1,0 +1,266 @@
+{
+    "object_id": "5533ab1a-b5cc-4ef1-b80b-34d92f81963e",
+    "object_type": "gauge",
+    "properties": {
+        "angle": 0.7,
+        "appId": "bf42b75c-cb99-41b3-bf76-38882c744120",
+        "autoOrientation": true,
+        "childRefId": "qXuqhqu",
+        "color": {
+            "useBaseColors": "off"
+        },
+        "components": [
+            {
+                "bgColor": {
+                    "color": {
+                        "alpha": 1,
+                        "color": "#00415a",
+                        "index": -1
+                    }
+                },
+                "key": "general",
+                "title": {
+                    "footer": {
+                        "fontFamily": "Inter, sans-serif"
+                    },
+                    "main": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    },
+                    "subTitle": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        },
+                        "fontFamily": "Inter, sans-serif"
+                    }
+                }
+            },
+            {
+                "axis": {
+                    "label": {
+                        "name": {
+                            "color": {
+                                "alpha": 1,
+                                "color": "#c4d2e4",
+                                "index": -1
+                            }
+                        }
+                    },
+                    "title": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        }
+                    }
+                },
+                "key": "axis"
+            },
+            {
+                "key": "value",
+                "label": {
+                    "value": {
+                        "color": {
+                            "alpha": 1,
+                            "color": "#c4d2e4",
+                            "index": -1
+                        }
+                    }
+                }
+            }
+        ],
+        "disableNavMenu": false,
+        "disclaimerClosed": false,
+        "footnote": "",
+        "gaugetype": "bar",
+        "maxMinChanged": true,
+        "maxSegments": 6,
+        "measureAxis": {
+            "label": "auto",
+            "max": 1.2,
+            "min": 0,
+            "show": "labels",
+            "spacing": 1
+        },
+        "orientation": "horizontal",
+        "paletteProgressColor": {
+            "color": "#4477aa",
+            "index": -1
+        },
+        "progressColor": "#4477aa",
+        "qHyperCubeDef": {
+            "qCalcCond": [],
+            "qCalcCondition": {
+                "qCond": [],
+                "qMsg": []
+            },
+            "qColumnOrder": [],
+            "qDimensions": [],
+            "qDynamicScript": [],
+            "qExpansionState": [],
+            "qInitialDataFetch": [
+                {
+                    "qHeight": 1,
+                    "qLeft": 0,
+                    "qTop": 0,
+                    "qWidth": 1
+                }
+            ],
+            "qInterColumnSortOrder": [
+                0
+            ],
+            "qLayoutExclude": {
+                "qHyperCubeDef": {
+                    "qCalcCond": [],
+                    "qCalcCondition": {
+                        "qCond": [],
+                        "qMsg": []
+                    },
+                    "qColumnOrder": [],
+                    "qDimensions": [],
+                    "qDynamicScript": [],
+                    "qExpansionState": [],
+                    "qInitialDataFetch": [],
+                    "qInterColumnSortOrder": [],
+                    "qMaxStackedCells": 5000,
+                    "qMeasures": [],
+                    "qMode": "S",
+                    "qNoOfLeftDims": -1,
+                    "qPseudoDimPos": -1,
+                    "qReductionMode": "N",
+                    "qTitle": []
+                }
+            },
+            "qMaxStackedCells": 5000,
+            "qMeasures": [
+                {
+                    "qAttributeDimensions": [],
+                    "qAttributeExpressions": [],
+                    "qCalcCond": [],
+                    "qCalcCondition": {
+                        "qCond": [],
+                        "qMsg": []
+                    },
+                    "qDef": {
+                        "autoSort": true,
+                        "cId": "mtsjKa",
+                        "qAccumulate": 0,
+                        "qActiveExpression": 0,
+                        "qExpressions": [],
+                        "qGrouping": "N",
+                        "qNumFormat": {
+                            "qDec": ".",
+                            "qFmt": "#,##0%",
+                            "qThou": ",",
+                            "qType": "F",
+                            "qUseThou": 0,
+                            "qnDec": 1
+                        },
+                        "qTags": []
+                    },
+                    "qLibraryId": "mwwzJ",
+                    "qMiniChartDef": {
+                        "qAttributeExpressions": [],
+                        "qMaxNumberPoints": -1,
+                        "qOtherTotalSpec": {
+                            "qApplyEvenWhenPossiblyWrongResult": true,
+                            "qForceBadValueKeeping": true,
+                            "qOtherCounted": [],
+                            "qOtherLimit": [],
+                            "qOtherLimitMode": "OTHER_GT_LIMIT",
+                            "qOtherMode": "OTHER_OFF",
+                            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                            "qReferencedExpression": [],
+                            "qTotalMode": "TOTAL_OFF"
+                        },
+                        "qSortBy": {
+                            "qExpression": []
+                        }
+                    },
+                    "qSortBy": {
+                        "qExpression": [],
+                        "qSortByLoadOrder": 1,
+                        "qSortByNumeric": -1
+                    },
+                    "qTrendLines": [],
+                    "showInPercent": true
+                }
+            ],
+            "qMode": "S",
+            "qNoOfLeftDims": -1,
+            "qPseudoDimPos": -1,
+            "qReductionMode": "N",
+            "qSuppressMissing": true,
+            "qTitle": []
+        },
+        "qInfo": {
+            "qId": "5533ab1a-b5cc-4ef1-b80b-34d92f81963e",
+            "qType": "gauge"
+        },
+        "qMetaDef": [],
+        "refLine": {
+            "refLines": [
+                {
+                    "$$hashKey": "8WS",
+                    "cId": "jMJmk",
+                    "color": "#4477aa",
+                    "label": "",
+                    "refLineExpr": {
+                        "label": "0.25",
+                        "value": 0.25
+                    },
+                    "show": true
+                }
+            ]
+        },
+        "script": "",
+        "segmentInfo": {
+            "colors": [
+                {
+                    "color": "#46c646"
+                },
+                {
+                    "color": "#ffcf02"
+                },
+                {
+                    "color": "#f93f17"
+                }
+            ],
+            "limits": [
+                {
+                    "$$hashKey": "57U",
+                    "gradient": true,
+                    "value": 0.504
+                },
+                {
+                    "$$hashKey": "5AK",
+                    "gradient": false,
+                    "value": 0.852
+                }
+            ],
+            "paletteColors": []
+        },
+        "showDetails": true,
+        "showDetailsExpression": false,
+        "showTitles": true,
+        "subtitle": {
+            "qStringExpression": {
+                "qExpr": "'Expense Target  =  ' & num(.25, '#,##0%')"
+            }
+        },
+        "title": {
+            "qStringExpression": {
+                "qExpr": "='Expenses vs. Target  =  ' & num(sum({<[Fiscal Year]={$(vYTDYear)}, _HistoryFlag={1}>} ExpenseActual)/sum({<[Fiscal Year]={$(vYTDYear)}, _HistoryFlag={1}>} ExpenseBudget), '#,##0%')"
+            }
+        },
+        "useSegments": true,
+        "valueMode": "absolute",
+        "visualization": "gauge"
+    }
+}
