@@ -1,0 +1,38 @@
+{
+    "object_id": "73dbe825-0858-461f-9fa6-991b757e9c5a",
+    "object_type": "listbox",
+    "properties": {
+        "checkboxes": true,
+        "qInfo": {
+            "qId": "73dbe825-0858-461f-9fa6-991b757e9c5a",
+            "qType": "listbox"
+        },
+        "qListObjectDef": {
+            "qDef": {
+                "autoSort": true,
+                "qActiveField": 0,
+                "qFieldDefs": [],
+                "qFieldLabels": [],
+                "qGrouping": "N",
+                "qNumberPresentations": [],
+                "qSortCriterias": [
+                    {
+                        "qExpression": [],
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qSortByNumeric": 1,
+                        "qSortByState": 1
+                    }
+                ]
+            },
+            "qExpressions": [],
+            "qFrequencyMode": "N",
+            "qInitialDataFetch": [],
+            "qLibraryId": "AswNnUE",
+            "qShowAlternatives": true
+        },
+        "qMetaDef": [],
+        "title": "Year",
+        "visualization": "listbox"
+    }
+}
