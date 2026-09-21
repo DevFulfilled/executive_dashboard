@@ -8,7 +8,7 @@ Thumbnail:
     "qUrl": "/api/v1/apps/c097d0d1-c7db-420e-a0fd-837d8e576ff6/media/files/executive-dashboard.jpg"
 }
 
-Saved In Product Version: 12.2850.0
+Saved In Product Version: 12.2886.0
 
 Additional Properties
 ---------------------
@@ -60,12 +60,12 @@ dynamicColor: hsla(205,18%,43%,1)
 encrypted: Yes
 hassectionaccess: No
 id: c097d0d1-c7db-420e-a0fd-837d8e576ff6
-modifiedDate: 2026-07-03T11:19:03.928Z
+modifiedDate: 2026-08-24T13:20:21.600Z
 originAppId: 467d4cd7-a0f3-470a-aaf0-116233b621fe
 owner: auth0|a08D000000d9u66IAA
 ownerId: 67e51c6122ab2f9b5e701b31
 privileges: read, update, delete, reload, export, change_owner, change_space, export_reduced, source, evaluate, manage, publish_source
-publishTime: 2026-07-03T11:19:02.912Z
+publishTime: 2026-08-24T13:20:21.428Z
 published: No
 qUsage: ANALYTICS
 spaceId: 6a2ea62d58a46856e9700cc6

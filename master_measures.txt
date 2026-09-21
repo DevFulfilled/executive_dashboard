@@ -170,7 +170,7 @@ ID: VjxMHP
 Tags: budget
 
 Expression:
-Sum(ExpenseBudget)/1000
+Sum(ExpenseBudget)
 
 --------------------------------------------------------------------------------
 
