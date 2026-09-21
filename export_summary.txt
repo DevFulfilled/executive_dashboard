@@ -3,7 +3,7 @@ DEVFULFILLED METADATA EXPORT
 
 Project: 
 Exported By: Richard Pearce
-Exported At: 2026-09-21 14:54:45
+Exported At: 2026-09-21 15:09:20
 
 FILES EXPORTED
 ==============
@@ -16,58 +16,3 @@ master_measures.txt
 master_dimensions.txt
 master_visualisations.txt
 variables.txt
-object_measures.json
-object_dimensions.json
-deep-scan/objects/7d2b2e66-12f7-484f-b3a0-5f0c1267cd3f.json
-deep-scan/objects/Xau.json
-deep-scan/objects/7348e519-f7ed-4596-80c6-6366aa68b4af.json
-deep-scan/objects/XQPJvm.json
-deep-scan/objects/c0da2580-1eb9-45da-b426-f483262c08cb.json
-deep-scan/objects/5533ab1a-b5cc-4ef1-b80b-34d92f81963e.json
-deep-scan/objects/cba42d5d-a6d9-451c-a53c-e5c700c16790.json
-deep-scan/objects/d43e8b03-db70-48b5-9afb-6730fef33f7d.json
-deep-scan/objects/e7f72415-f991-42b5-a92d-92d4c14eb752.json
-deep-scan/objects/fbcb9301-06b5-4c71-9faf-d85cf7b836d1.json
-deep-scan/objects/3ee2a8ae-fb6c-4833-8ec5-c68c86e91923.json
-deep-scan/objects/756782b3-8c84-4792-ae42-902deccd5e28.json
-deep-scan/objects/80d79ac5-f12e-4aa7-aa8e-bd2969c46c91.json
-deep-scan/objects/eb9e6235-bb22-43c3-a430-1a2b24a7fff2.json
-deep-scan/objects/ebcd6140-811a-4a08-9af2-2af88a2f55ad.json
-deep-scan/objects/1a49df52-e82e-4e1a-82e6-e6ab69d2d806.json
-deep-scan/objects/3afbb80c-a081-48fd-b8ee-372699b0aa43.json
-deep-scan/objects/3d149938-24b5-4e9a-be36-b3a7585db23e.json
-deep-scan/objects/47b05e70-4888-4289-bdee-c7d658c19bf8.json
-deep-scan/objects/64fead47-7c4c-49c7-a502-a2a1a2d18342.json
-deep-scan/objects/653dcad5-01c0-4c0c-87f9-2a4c25c2289d.json
-deep-scan/objects/7006439b-ea20-49f5-8130-ced689aa5504.json
-deep-scan/objects/721d834d-6f86-41bf-aeb2-b068c6de60a7.json
-deep-scan/objects/73dbe825-0858-461f-9fa6-991b757e9c5a.json
-deep-scan/objects/9847e895-00e3-4d72-905f-b1d535a84ce7.json
-deep-scan/objects/98c8cbb6-7807-4d68-87a7-71fcfd1e07ac.json
-deep-scan/objects/a017e6f5-0912-4340-a84d-3b541bb98531.json
-deep-scan/objects/a65236ed-8a11-4960-80b7-51af11e5a0b0.json
-deep-scan/objects/cd7a6ef3-624c-420b-b067-1e19b5e4bbdd.json
-deep-scan/objects/d8ff8886-9bd6-427b-8b97-419fcc2f579e.json
-deep-scan/objects/f7ab4525-4d3a-47fe-9d6f-1d7b1fefd491.json
-deep-scan/objects/7bc690d0-0c23-4d9a-a46d-0f02192324d0.json
-deep-scan/objects/7ed6fd8b-1cec-4fd5-83d4-2125564ec48d.json
-deep-scan/objects/BHTXyNM.json
-deep-scan/objects/FDJPm.json
-deep-scan/objects/JZMrdb.json
-deep-scan/objects/c84a7c6a-e46e-4fe7-b64c-9267f672736f.json
-deep-scan/objects/eff0d3b1-6415-4975-8cd4-da7c4969a334.json
-deep-scan/objects/nRxXG.json
-deep-scan/objects/pDKRhr.json
-deep-scan/objects/tmaqpf.json
-deep-scan/objects/026750f8-77ae-4fd4-842d-c04bf6f6851c.json
-deep-scan/objects/35c48abb-b9f9-4e8f-9376-277925ae045f.json
-deep-scan/objects/b7b97a00-665b-41dc-a88b-9a492c13f51b.json
-deep-scan/objects/c897a0e8-6288-463f-bb8e-e0c27abdc002.json
-deep-scan/objects/137bf5b3-971e-4605-8024-94391f5702a4.json
-deep-scan/objects/9d5def45-aca3-49a0-ba74-625966aa0c44.json
-deep-scan/objects/BLxjXC.json
-deep-scan/objects/ZTbfvp.json
-deep-scan/objects/xtBxkh.json
-deep-scan/objects/ZUprAtL.json
-deep-scan/objects/6b056ca8-0979-4b1e-983c-8d5542673197.json
-deep-scan/objects/9e3fc14b-0722-4365-8d8b-01b7a8757b72.json
