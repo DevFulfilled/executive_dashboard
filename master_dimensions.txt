@@ -3,6 +3,7 @@ MASTER DIMENSIONS
 
 Title: Product Type
 ID: ANYTpUm
+Tags: Product Hierarchy
 Grouping: N
 Fields: 
 Labels: 
@@ -12,6 +13,7 @@ Description:
 
 Title: Year
 ID: AswNnUE
+Tags: 
 Grouping: N
 Fields: 
 Labels: 
@@ -21,6 +23,7 @@ Description:
 
 Title: Product Sub Group
 ID: DcuPcq
+Tags: Product Hierarchy
 Grouping: N
 Fields: 
 Labels: 
@@ -30,6 +33,7 @@ Description: Product sub group description
 
 Title: Fiscal Time Drill
 ID: E1781VDT
+Tags: MasterItem, Drill-Down, Sales
 Grouping: H
 Fields: 
 Labels: 
@@ -39,6 +43,7 @@ Description: a grouping of dimensions
 
 Title: Customer Number
 ID: EzubBQ
+Tags: 
 Grouping: N
 Fields: 
 Labels: 
@@ -48,6 +53,7 @@ Description:
 
 Title: Customer Type
 ID: FYkzzR
+Tags: 
 Grouping: N
 Fields: 
 Labels: 
@@ -57,6 +63,7 @@ Description:
 
 Title: Customer to Product
 ID: GPAPHZU
+Tags: 
 Grouping: H
 Fields: 
 Labels: 
@@ -66,6 +73,7 @@ Description:
 
 Title: Year Month
 ID: HnEfUp
+Tags: 
 Grouping: N
 Fields: 
 Labels: 
@@ -75,6 +83,7 @@ Description:
 
 Title: Order Number
 ID: PjEUh
+Tags: 
 Grouping: N
 Fields: 
 Labels: 
@@ -84,6 +93,7 @@ Description:
 
 Title: Account Drill
 ID: QuWSp
+Tags: 
 Grouping: H
 Fields: 
 Labels: 
@@ -93,6 +103,7 @@ Description: Drill down from the account description to the account group descri
 
 Title: ARAge
 ID: RJRD
+Tags: 
 Grouping: N
 Fields: 
 Labels: 
@@ -102,6 +113,7 @@ Description: Age of account receivable.
 
 Title: Sales Rep Name
 ID: XFhtUb
+Tags: 
 Grouping: N
 Fields: 
 Labels: 
@@ -111,6 +123,7 @@ Description:
 
 Title: Account
 ID: aLVsP
+Tags: 
 Grouping: N
 Fields: 
 Labels: 
@@ -120,6 +133,7 @@ Description: Account description.
 
 Title: Month
 ID: dyCEjG
+Tags: 
 Grouping: N
 Fields: 
 Labels: 
@@ -129,6 +143,7 @@ Description:
 
 Title: Quarter
 ID: eMukN
+Tags: 
 Grouping: N
 Fields: 
 Labels: 
@@ -138,6 +153,7 @@ Description:
 
 Title: Order Status
 ID: jcDdm
+Tags: 
 Grouping: N
 Fields: 
 Labels: 
@@ -147,6 +163,7 @@ Description:
 
 Title: Region
 ID: jgxpDbw
+Tags: 
 Grouping: N
 Fields: 
 Labels: 
@@ -156,6 +173,7 @@ Description:
 
 Title: Inventory Turns
 ID: jxuDwx
+Tags: 
 Grouping: N
 Fields: 
 Labels: 
@@ -165,6 +183,7 @@ Description: The number of times inventory is sold or used in a year.
 
 Title: Account Group
 ID: nrxFRV
+Tags: 
 Grouping: N
 Fields: 
 Labels: 
@@ -174,6 +193,7 @@ Description:
 
 Title: Customer
 ID: pcZcGjn
+Tags: 
 Grouping: N
 Fields: 
 Labels: 
@@ -183,6 +203,7 @@ Description:
 
 Title: Product
 ID: pmresb
+Tags: Product Hierarchy
 Grouping: N
 Fields: 
 Labels: 
@@ -192,6 +213,7 @@ Description:
 
 Title: Product Group
 ID: rAWLLGj
+Tags: Product Hierarchy
 Grouping: N
 Fields: 
 Labels: 
@@ -201,6 +223,7 @@ Description:
 
 Title: Segment
 ID: wLJmmJn
+Tags: 
 Grouping: N
 Fields: 
 Labels: 
