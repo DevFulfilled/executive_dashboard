@@ -5,8 +5,8 @@ Title: Product Type
 ID: ANYTpUm
 Tags: Product Hierarchy
 Grouping: N
-Fields: 
-Labels: 
+Fields: Product Type Desc
+Labels: Product Type
 Description: 
 
 --------------------------------------------------------------------------------
@@ -15,8 +15,8 @@ Title: Year
 ID: AswNnUE
 Tags: 
 Grouping: N
-Fields: 
-Labels: 
+Fields: Fiscal Year
+Labels: Year
 Description: 
 
 --------------------------------------------------------------------------------
@@ -25,8 +25,8 @@ Title: Product Sub Group
 ID: DcuPcq
 Tags: Product Hierarchy
 Grouping: N
-Fields: 
-Labels: 
+Fields: Product Sub Group Desc
+Labels: Product Sub Group
 Description: Product sub group description
 
 --------------------------------------------------------------------------------
@@ -35,8 +35,8 @@ Title: Fiscal Time Drill
 ID: E1781VDT
 Tags: MasterItem, Drill-Down, Sales
 Grouping: H
-Fields: 
-Labels: 
+Fields: Fiscal Year, Fiscal Quarter, FiscalMonth
+Labels: Fiscal Time Drill
 Description: a grouping of dimensions
 
 --------------------------------------------------------------------------------
@@ -45,8 +45,8 @@ Title: Customer Number
 ID: EzubBQ
 Tags: 
 Grouping: N
-Fields: 
-Labels: 
+Fields: Customer Number
+Labels: Customer Number
 Description: 
 
 --------------------------------------------------------------------------------
@@ -55,8 +55,8 @@ Title: Customer Type
 ID: FYkzzR
 Tags: 
 Grouping: N
-Fields: 
-Labels: 
+Fields: Customer Type
+Labels: Customer Type
 Description: 
 
 --------------------------------------------------------------------------------
@@ -65,7 +65,7 @@ Title: Customer to Product
 ID: GPAPHZU
 Tags: 
 Grouping: H
-Fields: 
+Fields: Customer, Line Desc 1
 Labels: 
 Description: 
 
@@ -75,8 +75,8 @@ Title: Year Month
 ID: HnEfUp
 Tags: 
 Grouping: N
-Fields: 
-Labels: 
+Fields: YYYYMM
+Labels: Year Month
 Description: 
 
 --------------------------------------------------------------------------------
@@ -85,8 +85,8 @@ Title: Order Number
 ID: PjEUh
 Tags: 
 Grouping: N
-Fields: 
-Labels: 
+Fields: Order Number
+Labels: Order Number
 Description: 
 
 --------------------------------------------------------------------------------
@@ -95,7 +95,7 @@ Title: Account Drill
 ID: QuWSp
 Tags: 
 Grouping: H
-Fields: 
+Fields: AccountGroupDesc, AccountDesc
 Labels: 
 Description: Drill down from the account description to the account group description.
 
@@ -105,8 +105,8 @@ Title: ARAge
 ID: RJRD
 Tags: 
 Grouping: N
-Fields: 
-Labels: 
+Fields: ARAge
+Labels: ARAge
 Description: Age of account receivable.
 
 --------------------------------------------------------------------------------
@@ -115,8 +115,8 @@ Title: Sales Rep Name
 ID: XFhtUb
 Tags: 
 Grouping: N
-Fields: 
-Labels: 
+Fields: Sales Rep Name
+Labels: Sales Rep Name
 Description: 
 
 --------------------------------------------------------------------------------
@@ -125,8 +125,8 @@ Title: Account
 ID: aLVsP
 Tags: 
 Grouping: N
-Fields: 
-Labels: 
+Fields: AccountDesc
+Labels: Account
 Description: Account description.
 
 --------------------------------------------------------------------------------
@@ -135,8 +135,8 @@ Title: Month
 ID: dyCEjG
 Tags: 
 Grouping: N
-Fields: 
-Labels: 
+Fields: FiscalMonth
+Labels: Month
 Description: 
 
 --------------------------------------------------------------------------------
@@ -145,8 +145,8 @@ Title: Quarter
 ID: eMukN
 Tags: 
 Grouping: N
-Fields: 
-Labels: 
+Fields: Fiscal Quarter
+Labels: Quarter
 Description: 
 
 --------------------------------------------------------------------------------
@@ -155,8 +155,8 @@ Title: Order Status
 ID: jcDdm
 Tags: 
 Grouping: N
-Fields: 
-Labels: 
+Fields: Order Status
+Labels: Order Status
 Description: 
 
 --------------------------------------------------------------------------------
@@ -165,8 +165,8 @@ Title: Region
 ID: jgxpDbw
 Tags: 
 Grouping: N
-Fields: 
-Labels: 
+Fields: Region
+Labels: Region
 Description: 
 
 --------------------------------------------------------------------------------
@@ -175,8 +175,8 @@ Title: Inventory Turns
 ID: jxuDwx
 Tags: 
 Grouping: N
-Fields: 
-Labels: 
+Fields: ClassTurns
+Labels: Inventory Turns
 Description: The number of times inventory is sold or used in a year.
 
 --------------------------------------------------------------------------------
@@ -185,8 +185,8 @@ Title: Account Group
 ID: nrxFRV
 Tags: 
 Grouping: N
-Fields: 
-Labels: 
+Fields: AccountGroupDesc
+Labels: Account Group
 Description: 
 
 --------------------------------------------------------------------------------
@@ -195,8 +195,8 @@ Title: Customer
 ID: pcZcGjn
 Tags: 
 Grouping: N
-Fields: 
-Labels: 
+Fields: Customer
+Labels: Customer
 Description: 
 
 --------------------------------------------------------------------------------
@@ -205,8 +205,8 @@ Title: Product
 ID: pmresb
 Tags: Product Hierarchy
 Grouping: N
-Fields: 
-Labels: 
+Fields: Line Desc 1
+Labels: Product
 Description: 
 
 --------------------------------------------------------------------------------
@@ -215,8 +215,8 @@ Title: Product Group
 ID: rAWLLGj
 Tags: Product Hierarchy
 Grouping: N
-Fields: 
-Labels: 
+Fields: Product Group Desc
+Labels: Product Group
 Description: 
 
 --------------------------------------------------------------------------------
@@ -225,8 +225,8 @@ Title: Segment
 ID: wLJmmJn
 Tags: 
 Grouping: N
-Fields: 
-Labels: 
+Fields: SegmentDesc
+Labels: Segment
 Description: 
 
 --------------------------------------------------------------------------------
