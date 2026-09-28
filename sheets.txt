@@ -1,27 +1,22 @@
 SHEETS
 ======
 
-Account Receivable Analysis
----------------------------
+My new sheet
+------------
 
-ID: bd44a82b-1158-4654-9c6d-d84f6e335b10
+ID: dgHdVp
 Type: sheet
-Rank: 5.5
-Published: Yes
-Approved: Yes
-Publish Time: 2024-03-21T21:19:12.930Z
-Created Date: 2026-07-03T11:19:03.915Z
-Modified Date: 2026-08-24T13:20:21.592Z
+Rank: 0
+Published: No
+Approved: No
+Publish Time: 
+Created Date: 2026-09-28T13:19:10.033Z
+Modified Date: 2026-09-28T13:19:10.033Z
 Owner: auth0|a08D000000d9u66IAA
 Owner id: 67e51c6122ab2f9b5e701b31
 Thumbnail: {
-    "qStaticContentUrl": {
-        "qUrl": "/api/v1/apps/c097d0d1-c7db-420e-a0fd-837d8e576ff6/media/files/Account%20Receivable%20Analysis1.png"
-    }
+    "qStaticContentUrl": []
 }
-
-Description:
-The Account Receivables Analysis sheet provides a look at the amount due and days sales outstanding for customers.
 
 --------------------------------------------------------------------------------
 
